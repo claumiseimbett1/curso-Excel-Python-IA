@@ -1,0 +1,501 @@
+Fecha,Región,Producto,Cantidad_vendida,Precio_unitario,Cliente,Tipo_cultivo,Canal_venta,Costo,Mes,Total_venta
+2024-01-01,Orinoquía,Insecticida,469,77.88,Distribuidor,Caña,Tienda,54.52,1,36525.72
+2024-01-02,Amazonía,Fertilizante,365,43.18,Asociación,Pastos,En línea,30.23,1,15760.7
+2024-01-03,Pacífica,Suplemento,333,50.59,Distribuidor,Caña,Distribuidor,35.41,1,16846.47
+2024-01-04,Amazonía,Herbicida,142,64.61,Productor,Caña,En línea,45.23,1,9174.62
+2024-01-05,Amazonía,Herbicida,897,88.0,Productor,Arroz,Tienda,61.6,1,78936.0
+2024-01-06,Andina,Fertilizante,814,98.49,Distribuidor,Palma,En línea,68.94,1,80170.86
+2024-01-07,Pacífica,Insecticida,849,77.99,Asociación,Palma,En línea,54.59,1,66213.51
+2024-01-08,Pacífica,Insecticida,136,44.69,Asociación,Arroz,Tienda,31.28,1,6077.84
+2024-01-09,Pacífica,Suplemento,115,45.03,Asociación,Pastos,En línea,31.52,1,5178.45
+2024-01-10,Amazonía,Fertilizante,613,75.07,Productor,Maíz,En línea,52.55,1,46017.91
+2024-01-11,Orinoquía,Herbicida,808,27.68,Distribuidor,Maíz,Distribuidor,19.38,1,22365.44
+2024-01-12,Pacífica,Insecticida,387,15.5,Finca,Maíz,Distribuidor,10.85,1,5998.5
+2024-01-13,Amazonía,Fertilizante,914,38.69,Productor,Arroz,Tienda,27.08,1,35362.66
+2024-01-14,Andina,Insecticida,60,32.29,Asociación,Arroz,Tienda,22.6,1,1937.4
+2024-01-15,Orinoquía,Insecticida,38,33.15,Distribuidor,Caña,Tienda,23.2,1,1259.7
+2024-01-16,Andina,Herbicida,471,27.19,Asociación,Maíz,Distribuidor,19.03,1,12806.49
+2024-01-17,Orinoquía,Semilla,305,9.0,Finca,Pastos,Tienda,6.3,1,2745.0
+2024-01-18,Amazonía,Suplemento,306,6.7,Asociación,Pastos,Tienda,4.69,1,2050.2
+2024-01-19,Caribe,Suplemento,735,98.83,Asociación,Maíz,Tienda,69.18,1,72640.05
+2024-01-20,Orinoquía,Herbicida,788,45.64,Finca,Maíz,Distribuidor,31.95,1,35964.32
+2024-01-21,Andina,Insecticida,416,41.51,Distribuidor,Maíz,En línea,29.06,1,17268.16
+2024-01-22,Amazonía,Fertilizante,778,69.57,Productor,Arroz,Tienda,48.7,1,54125.46
+2024-01-23,Orinoquía,Insecticida,823,25.73,Distribuidor,Arroz,En línea,18.01,1,21175.79
+2024-01-24,Caribe,Herbicida,622,95.25,Finca,Arroz,Tienda,66.68,1,59245.5
+2024-01-25,Caribe,Suplemento,414,79.7,Asociación,Palma,En línea,55.79,1,32995.8
+2024-01-26,Pacífica,Insecticida,355,13.49,Distribuidor,Pastos,Distribuidor,9.44,1,4788.95
+2024-01-27,Pacífica,Suplemento,631,44.67,Productor,Pastos,Distribuidor,31.27,1,28186.77
+2024-01-28,Andina,Fertilizante,429,88.52,Finca,Caña,Tienda,61.96,1,37975.08
+2024-01-29,Orinoquía,Suplemento,191,94.75,Distribuidor,Arroz,En línea,66.32,1,18097.25
+2024-01-30,Orinoquía,Suplemento,992,49.4,Productor,Palma,Distribuidor,34.58,1,49004.8
+2024-01-31,Pacífica,Semilla,834,63.27,Finca,Palma,Tienda,44.29,1,52767.18
+2024-02-01,Orinoquía,Semilla,10,20.87,Productor,Pastos,Tienda,14.61,2,208.7
+2024-02-02,Orinoquía,Semilla,840,99.16,Finca,Arroz,Distribuidor,69.41,2,83294.4
+2024-02-03,Caribe,Suplemento,959,27.01,Asociación,Caña,Distribuidor,18.91,2,25902.59
+2024-02-04,Pacífica,Herbicida,576,94.56,Distribuidor,Arroz,Tienda,66.19,2,54466.56
+2024-02-05,Amazonía,Suplemento,380,66.72,Productor,Maíz,En línea,46.7,2,25353.6
+2024-02-06,Pacífica,Herbicida,945,62.73,Finca,Arroz,En línea,43.91,2,59279.85
+2024-02-07,Amazonía,Herbicida,920,53.71,Productor,Maíz,En línea,37.6,2,49413.2
+2024-02-08,Caribe,Semilla,10050,160.38674431729518,Productor,Maíz,Tienda,18.84,2,1611886.78
+2024-02-09,Andina,Insecticida,440,21.77,Distribuidor,Caña,Distribuidor,15.24,2,9578.8
+2024-02-10,Orinoquía,Fertilizante,978,25.95,Asociación,Pastos,Tienda,18.16,2,25379.1
+2024-02-11,Caribe,Semilla,318,22.71,Productor,Arroz,Distribuidor,15.9,2,7221.78
+2024-02-12,Orinoquía,Semilla,146,79.06,Finca,Maíz,En línea,55.34,2,11542.76
+2024-02-13,Andina,Insecticida,211,38.26,Finca,Arroz,En línea,26.78,2,8072.86
+2024-02-14,Andina,Fertilizante,445,10.5,Asociación,Pastos,Distribuidor,7.35,2,4672.5
+2024-02-15,Caribe,Suplemento,322,97.06,Finca,Pastos,Distribuidor,67.94,2,31253.32
+2024-02-16,Andina,Suplemento,126,88.96,Asociación,Palma,Tienda,62.27,2,11208.96
+2024-02-17,Amazonía,Semilla,675,93.14,Finca,Pastos,En línea,65.2,2,62869.5
+2024-02-18,Andina,Fertilizante,946,99.52,Distribuidor,Caña,Tienda,69.66,2,94145.92
+2024-02-19,Orinoquía,Semilla,812,21.52,Productor,Maíz,Tienda,15.06,2,17474.24
+2024-02-20,Orinoquía,Herbicida,584,42.64,Distribuidor,Palma,Tienda,29.85,2,24901.76
+2024-02-21,Orinoquía,Semilla,253,77.03,Productor,Caña,En línea,53.92,2,19488.59
+2024-02-22,Orinoquía,Semilla,546,71.12,Productor,Arroz,Tienda,49.78,2,38831.52
+2024-02-23,Amazonía,Suplemento,611,19.62,Productor,Maíz,Tienda,13.73,2,11987.82
+2024-02-24,Pacífica,Suplemento,84,82.5,Distribuidor,Pastos,Tienda,57.75,2,6930.0
+2024-02-25,Caribe,Suplemento,815,26.32,Productor,Maíz,Tienda,18.42,2,21450.8
+2024-02-26,Orinoquía,Herbicida,395,26.26,Distribuidor,Arroz,Tienda,18.38,2,10372.7
+2024-02-27,Andina,Suplemento,912,56.01,Asociación,Palma,Tienda,39.21,2,51081.12
+2024-02-28,Orinoquía,Fertilizante,219,61.33,Finca,Palma,En línea,42.93,2,13431.27
+2024-02-29,Andina,Insecticida,484,60.11,Finca,Palma,Tienda,42.08,2,29093.24
+2024-03-01,Andina,Fertilizante,427,13.69,Productor,Pastos,Distribuidor,9.58,3,5845.63
+2024-03-02,Orinoquía,Fertilizante,356,88.36,Distribuidor,Caña,Tienda,61.85,3,31456.16
+2024-03-03,Amazonía,Suplemento,538,30.23,Finca,Caña,Tienda,21.16,3,16263.74
+2024-03-04,Andina,Insecticida,649,17.3,Distribuidor,Maíz,En línea,12.11,3,11227.7
+2024-03-05,Andina,Insecticida,948,89.43,Distribuidor,Pastos,En línea,62.6,3,84779.64
+2024-03-06,Orinoquía,Insecticida,964,95.79,Productor,Palma,Distribuidor,67.05,3,92341.56
+2024-03-07,Andina,Herbicida,885,86.9,Finca,Palma,Distribuidor,60.83,3,76906.5
+2024-03-08,Andina,Suplemento,772,81.9,Productor,Arroz,En línea,57.33,3,63226.8
+2024-03-09,Orinoquía,Insecticida,188,67.25,Productor,Arroz,En línea,47.08,3,12643.0
+2024-03-10,Orinoquía,Herbicida,191,57.33,Finca,Palma,Tienda,40.13,3,10950.03
+2024-03-11,Caribe,Semilla,673,13.26,Finca,Palma,En línea,9.28,3,8923.98
+2024-03-12,Amazonía,Semilla,34,43.8,Asociación,Pastos,Distribuidor,30.66,3,1489.2
+2024-03-13,Amazonía,Herbicida,976,40.41,Asociación,Caña,Tienda,28.29,3,39440.16
+2024-03-14,Andina,Herbicida,189,29.68,Distribuidor,Arroz,Distribuidor,20.78,3,5609.52
+2024-03-15,Amazonía,Suplemento,719,73.72,Finca,Caña,Tienda,51.6,3,53004.68
+2024-03-16,Andina,Suplemento,510,52.11,Asociación,Pastos,En línea,36.48,3,26576.1
+2024-03-17,Caribe,Semilla,865,12.7,Distribuidor,Palma,Distribuidor,8.89,3,10985.5
+2024-03-18,Orinoquía,Insecticida,170,25.92,Distribuidor,Caña,Tienda,18.14,3,4406.4
+2024-03-19,Orinoquía,Semilla,186,69.91,Distribuidor,Palma,Tienda,48.94,3,13003.26
+2024-03-20,Orinoquía,Insecticida,294,12.23,Asociación,Palma,En línea,8.56,3,3595.62
+2024-03-21,Amazonía,Insecticida,72,85.86,Finca,Maíz,En línea,60.1,3,6181.92
+2024-03-22,Caribe,Suplemento,671,52.04,Productor,Caña,En línea,36.43,3,34918.84
+2024-03-23,Amazonía,Fertilizante,675,50.66,Distribuidor,Caña,Distribuidor,35.46,3,34195.5
+2024-03-24,Amazonía,Fertilizante,165,61.28,Asociación,Palma,Tienda,42.9,3,10111.2
+2024-03-25,Caribe,Herbicida,891,83.34,Asociación,Pastos,En línea,58.34,3,74255.94
+2024-03-26,Caribe,Suplemento,478,38.04,Productor,Maíz,Distribuidor,26.63,3,18183.12
+2024-03-27,Caribe,Insecticida,58,69.41,Productor,Palma,Distribuidor,48.59,3,4025.78
+2024-03-28,Caribe,Fertilizante,976,58.74,Asociación,Arroz,Distribuidor,41.12,3,57330.24
+2024-03-29,Orinoquía,Insecticida,858,30.37,Finca,Arroz,En línea,21.26,3,26057.46
+2024-03-30,Pacífica,Fertilizante,93,88.47,Productor,Maíz,En línea,61.93,3,8227.71
+2024-03-31,Pacífica,Fertilizante,370,80.76,Asociación,Pastos,Tienda,56.53,3,29881.2
+2024-04-01,Caribe,Fertilizante,698,67.55,Productor,Palma,Tienda,47.28,4,47149.9
+2024-04-02,Pacífica,Suplemento,157,85.81,Finca,Caña,En línea,60.07,4,13472.17
+2024-04-03,Pacífica,Semilla,639,87.39,Distribuidor,Maíz,Distribuidor,61.17,4,55842.21
+2024-04-04,Caribe,Insecticida,5265,430.8568467743318,Productor,Pastos,Distribuidor,50.6,4,2268461.3
+2024-04-05,Pacífica,Suplemento,485,84.52,Finca,Caña,Distribuidor,59.16,4,40992.2
+2024-04-06,Amazonía,Suplemento,72,71.26,Asociación,Arroz,Tienda,49.88,4,5130.72
+2024-04-07,Andina,Suplemento,710,69.61,Productor,Arroz,Distribuidor,48.73,4,49423.1
+2024-04-08,Andina,Suplemento,369,63.77,Productor,Caña,Tienda,44.64,4,23531.13
+2024-04-09,Caribe,Suplemento,570,76.51,Asociación,Maíz,Tienda,53.56,4,43610.7
+2024-04-10,Orinoquía,Herbicida,336,20.07,Distribuidor,Arroz,Distribuidor,14.05,4,6743.52
+2024-04-11,Caribe,Insecticida,778,88.68,Asociación,Palma,Distribuidor,62.08,4,68993.04
+2024-04-12,Orinoquía,Suplemento,745,87.83,Productor,Caña,En línea,61.48,4,65433.35
+2024-04-13,Andina,Insecticida,150,7.78,Asociación,Caña,En línea,5.45,4,1167.0
+2024-04-14,Caribe,Herbicida,999,83.45,Finca,Arroz,Distribuidor,58.42,4,83366.55
+2024-04-15,Amazonía,Herbicida,224,17.24,Asociación,Maíz,Tienda,12.07,4,3861.76
+2024-04-16,Pacífica,Insecticida,444,36.84,Productor,Palma,Tienda,25.79,4,16356.96
+2024-04-17,Orinoquía,Fertilizante,900,75.63,Asociación,Maíz,Tienda,52.94,4,68067.0
+2024-04-18,Pacífica,Semilla,961,20.27,Distribuidor,Pastos,Tienda,14.19,4,19479.47
+2024-04-19,Pacífica,Fertilizante,732,82.71,Asociación,Pastos,Tienda,57.9,4,60543.72
+2024-04-20,Caribe,Fertilizante,327,84.05,Distribuidor,Arroz,En línea,58.83,4,27484.35
+2024-04-21,Pacífica,Fertilizante,41,53.21,Finca,Arroz,Distribuidor,37.25,4,2181.61
+2024-04-22,Amazonía,Suplemento,679,5.61,Distribuidor,Arroz,En línea,3.93,4,3809.19
+2024-04-23,Pacífica,Herbicida,294,32.27,Asociación,Pastos,Tienda,22.59,4,9487.38
+2024-04-24,Caribe,Fertilizante,314,63.61,Productor,Maíz,Tienda,44.53,4,19973.54
+2024-04-25,Amazonía,Herbicida,438,98.21,Distribuidor,Maíz,Tienda,68.75,4,43015.98
+2024-04-26,Andina,Insecticida,486,65.02,Finca,Arroz,Tienda,45.51,4,31599.72
+2024-04-27,Pacífica,Semilla,295,29.68,Distribuidor,Palma,Distribuidor,20.78,4,8755.6
+2024-04-28,Caribe,Insecticida,153,65.23,Distribuidor,Maíz,Tienda,45.66,4,9980.19
+2024-04-29,Andina,Insecticida,433,56.3,Distribuidor,Pastos,Distribuidor,39.41,4,24377.9
+2024-04-30,Andina,Suplemento,28,79.09,Finca,Caña,Tienda,55.36,4,2214.52
+2024-05-01,Orinoquía,Semilla,27,15.16,Asociación,Caña,Distribuidor,10.61,5,409.32
+2024-05-02,Amazonía,Insecticida,778,77.3,Distribuidor,Caña,En línea,54.11,5,60139.4
+2024-05-03,Pacífica,Insecticida,599,56.42,Distribuidor,Palma,Tienda,39.49,5,33795.58
+2024-05-04,Caribe,Semilla,380,96.48,Productor,Arroz,Distribuidor,67.54,5,36662.4
+2024-05-05,Orinoquía,Semilla,184,37.48,Finca,Pastos,En línea,26.24,5,6896.32
+2024-05-06,Amazonía,Insecticida,203,65.1,Distribuidor,Palma,Tienda,45.57,5,13215.3
+2024-05-07,Orinoquía,Semilla,511,93.54,Finca,Pastos,Tienda,65.48,5,47798.94
+2024-05-08,Amazonía,Insecticida,997,14.74,Distribuidor,Pastos,Tienda,10.32,5,14695.78
+2024-05-09,Amazonía,Insecticida,122,94.04,Asociación,Arroz,Distribuidor,65.83,5,11472.88
+2024-05-10,Pacífica,Suplemento,123,70.35,Asociación,Caña,Distribuidor,49.24,5,8653.05
+2024-05-11,Amazonía,Fertilizante,231,11.44,Distribuidor,Arroz,En línea,8.01,5,2642.64
+2024-05-12,Orinoquía,Insecticida,687,33.59,Asociación,Palma,Distribuidor,23.51,5,23076.33
+2024-05-13,Amazonía,Herbicida,956,72.28,Distribuidor,Palma,Distribuidor,50.6,5,69099.68
+2024-05-14,Pacífica,Fertilizante,840,11.4,Asociación,Palma,Tienda,7.98,5,9576.0
+2024-05-15,Pacífica,Fertilizante,653,60.31,Productor,Arroz,Tienda,42.22,5,39382.43
+2024-05-16,Orinoquía,Fertilizante,906,37.86,Productor,Pastos,Tienda,26.5,5,34301.16
+2024-05-17,Andina,Suplemento,273,63.99,Productor,Pastos,Tienda,44.79,5,17469.27
+2024-05-18,Andina,Insecticida,934,9.35,Finca,Maíz,Tienda,6.54,5,8732.9
+2024-05-19,Amazonía,Suplemento,64,87.8,Finca,Palma,Tienda,61.46,5,5619.2
+2024-05-20,Caribe,Insecticida,880,97.48,Productor,Pastos,Tienda,68.24,5,85782.4
+2024-05-21,Amazonía,Suplemento,652,97.04,Finca,Maíz,En línea,67.93,5,63270.08
+2024-05-22,Orinoquía,Suplemento,809,76.22,Asociación,Pastos,En línea,53.35,5,61661.98
+2024-05-23,Orinoquía,Herbicida,787,17.36,Distribuidor,Palma,En línea,12.15,5,13662.32
+2024-05-24,Orinoquía,Suplemento,467,77.04,Distribuidor,Caña,En línea,53.93,5,35977.68
+2024-05-25,Orinoquía,Semilla,988,7.34,Distribuidor,Palma,Tienda,5.14,5,7251.92
+2024-05-26,Orinoquía,Herbicida,887,7.1,Productor,Arroz,En línea,4.97,5,6297.7
+2024-05-27,Pacífica,Suplemento,171,35.74,Finca,Pastos,Tienda,25.02,5,6111.54
+2024-05-28,Andina,Fertilizante,389,51.42,Asociación,Pastos,En línea,35.99,5,20002.38
+2024-05-29,Orinoquía,Semilla,96,78.19,Asociación,Arroz,Distribuidor,54.73,5,7506.24
+2024-05-30,Caribe,Semilla,64,69.91,Productor,Arroz,En línea,48.94,5,4474.24
+2024-05-31,Caribe,Semilla,485,47.36,Asociación,Caña,En línea,33.15,5,22969.6
+2024-06-01,Caribe,Herbicida,809,30.99,Asociación,Pastos,Tienda,21.69,6,25070.91
+2024-06-02,Caribe,Suplemento,187,99.73,Asociación,Pastos,En línea,69.81,6,18649.51
+2024-06-03,Pacífica,Suplemento,400,45.49,Asociación,Caña,Distribuidor,31.84,6,18196.0
+2024-06-04,Caribe,Fertilizante,358,47.88,Finca,Maíz,Tienda,33.52,6,17141.04
+2024-06-05,Orinoquía,Fertilizante,17,20.54,Asociación,Caña,Tienda,14.38,6,349.18
+2024-06-06,Amazonía,Semilla,842,80.51,Distribuidor,Palma,En línea,56.36,6,67789.42
+2024-06-07,Caribe,Fertilizante,322,70.9,Productor,Pastos,Tienda,49.63,6,22829.8
+2024-06-08,Pacífica,Herbicida,11520,154.78423448235435,Finca,Arroz,Tienda,18.18,6,1783114.38
+2024-06-09,Pacífica,Suplemento,844,12.83,Asociación,Palma,Tienda,8.98,6,10828.52
+2024-06-10,Caribe,Semilla,993,69.65,Finca,Pastos,Tienda,48.76,6,69162.45
+2024-06-11,Amazonía,Fertilizante,992,67.18,Asociación,Caña,Tienda,47.03,6,66642.56
+2024-06-12,Caribe,Herbicida,452,30.96,Distribuidor,Palma,Tienda,21.67,6,13993.92
+2024-06-13,Pacífica,Herbicida,776,95.33,Productor,Pastos,Distribuidor,66.73,6,73976.08
+2024-06-14,Andina,Fertilizante,337,19.35,Asociación,Maíz,En línea,13.54,6,6520.95
+2024-06-15,Orinoquía,Suplemento,63,46.07,Asociación,Maíz,Distribuidor,32.25,6,2902.41
+2024-06-16,Pacífica,Fertilizante,770,94.64,Asociación,Arroz,Tienda,66.25,6,72872.8
+2024-06-17,Caribe,Semilla,248,44.87,Asociación,Pastos,Tienda,31.41,6,11127.76
+2024-06-18,Orinoquía,Fertilizante,238,65.66,Productor,Maíz,En línea,45.96,6,15627.08
+2024-06-19,Caribe,Herbicida,588,42.77,Productor,Caña,Distribuidor,29.94,6,25148.76
+2024-06-20,Caribe,Fertilizante,60,31.05,Distribuidor,Pastos,En línea,21.74,6,1863.0
+2024-06-21,Andina,Suplemento,618,98.48,Productor,Caña,Distribuidor,68.94,6,60860.64
+2024-06-22,Orinoquía,Insecticida,613,43.89,Asociación,Caña,Tienda,30.72,6,26904.57
+2024-06-23,Orinoquía,Fertilizante,273,89.94,Distribuidor,Maíz,En línea,62.96,6,24553.62
+2024-06-24,Andina,Suplemento,427,26.85,Distribuidor,Pastos,En línea,18.79,6,11464.95
+2024-06-25,Pacífica,Suplemento,812,25.24,Distribuidor,Palma,Tienda,17.67,6,20494.88
+2024-06-26,Caribe,Herbicida,105,7.96,Asociación,Maíz,En línea,5.57,6,835.8
+2024-06-27,Amazonía,Suplemento,97,66.91,Finca,Maíz,Distribuidor,46.84,6,6490.27
+2024-06-28,Caribe,Suplemento,87,40.01,Asociación,Pastos,Distribuidor,28.01,6,3480.87
+2024-06-29,Caribe,Suplemento,297,87.11,Productor,Pastos,Distribuidor,60.98,6,25871.67
+2024-06-30,Pacífica,Suplemento,129,49.95,Productor,Caña,Distribuidor,34.96,6,6443.55
+2024-07-01,Caribe,Semilla,823,96.98,Asociación,Pastos,Tienda,67.89,7,79814.54
+2024-07-02,Andina,Semilla,500,22.62,Asociación,Caña,En línea,15.83,7,11310.0
+2024-07-03,Andina,Herbicida,921,87.52,Distribuidor,Maíz,Distribuidor,61.26,7,80605.92
+2024-07-04,Orinoquía,Fertilizante,461,78.78,Asociación,Arroz,Tienda,55.15,7,36317.58
+2024-07-05,Amazonía,Suplemento,509,78.24,Distribuidor,Palma,En línea,54.77,7,39824.16
+2024-07-06,Caribe,Fertilizante,174,85.25,Productor,Maíz,En línea,59.68,7,14833.5
+2024-07-07,Caribe,Fertilizante,191,77.3,Distribuidor,Pastos,Tienda,54.11,7,14764.3
+2024-07-08,Pacífica,Herbicida,478,64.49,Asociación,Palma,Tienda,45.14,7,30826.22
+2024-07-09,Andina,Suplemento,919,17.47,Productor,Arroz,Distribuidor,12.23,7,16054.93
+2024-07-10,Amazonía,Suplemento,744,8.09,Finca,Arroz,En línea,5.66,7,6018.96
+2024-07-11,Orinoquía,Insecticida,832,92.48,Distribuidor,Caña,En línea,64.74,7,76943.36
+2024-07-12,Andina,Fertilizante,953,63.58,Productor,Palma,Tienda,44.51,7,60591.74
+2024-07-13,Orinoquía,Fertilizante,987,80.67,Distribuidor,Caña,En línea,56.47,7,79621.29
+2024-07-14,Pacífica,Semilla,16,50.74,Productor,Maíz,Distribuidor,35.52,7,811.84
+2024-07-15,Pacífica,Insecticida,339,16.14,Productor,Palma,En línea,11.3,7,5471.46
+2024-07-16,Caribe,Semilla,784,16.89,Distribuidor,Maíz,Tienda,11.82,7,13241.76
+2024-07-17,Amazonía,Semilla,682,70.13,Finca,Caña,Tienda,49.09,7,47828.66
+2024-07-18,Orinoquía,Semilla,160,45.88,Productor,Palma,Distribuidor,32.12,7,7340.8
+2024-07-19,Andina,Herbicida,94,24.05,Productor,Caña,Distribuidor,16.84,7,2260.7
+2024-07-20,Pacífica,Herbicida,156,51.7,Productor,Palma,En línea,36.19,7,8065.2
+2024-07-21,Caribe,Semilla,633,11.1,Finca,Caña,En línea,7.77,7,7026.3
+2024-07-22,Caribe,Insecticida,390,60.29,Finca,Arroz,Tienda,42.2,7,23513.1
+2024-07-23,Orinoquía,Fertilizante,924,30.55,Asociación,Caña,Distribuidor,21.38,7,28228.2
+2024-07-24,Pacífica,Insecticida,557,80.77,Distribuidor,Arroz,Distribuidor,56.54,7,44988.89
+2024-07-25,Amazonía,Suplemento,294,34.48,Finca,Caña,Distribuidor,24.14,7,10137.12
+2024-07-26,Pacífica,Herbicida,709,48.25,Distribuidor,Palma,En línea,33.78,7,34209.25
+2024-07-27,Orinoquía,Fertilizante,91,6.1,Asociación,Palma,Distribuidor,4.27,7,555.1
+2024-07-28,Orinoquía,Fertilizante,523,11.88,Distribuidor,Palma,Tienda,8.32,7,6213.24
+2024-07-29,Pacífica,Suplemento,906,42.29,Finca,Pastos,Tienda,29.6,7,38314.74
+2024-07-30,Orinoquía,Suplemento,824,50.59,Distribuidor,Maíz,En línea,35.41,7,41686.16
+2024-07-31,Pacífica,Semilla,718,62.0,Finca,Palma,En línea,43.4,7,44516.0
+2024-08-01,Andina,Herbicida,925,32.71,Distribuidor,Arroz,Distribuidor,22.9,8,30256.75
+2024-08-02,Pacífica,Herbicida,532,71.02,Finca,Palma,En línea,49.71,8,37782.64
+2024-08-03,Pacífica,Insecticida,755,86.71,Finca,Pastos,Tienda,60.7,8,65466.05
+2024-08-04,Orinoquía,Semilla,395,79.09,Distribuidor,Arroz,Distribuidor,55.36,8,31240.55
+2024-08-05,Orinoquía,Semilla,716,8.76,Asociación,Pastos,Tienda,6.13,8,6272.16
+2024-08-06,Caribe,Semilla,480,50.65,Productor,Arroz,Distribuidor,35.46,8,24312.0
+2024-08-07,Caribe,Semilla,128,14.97,Asociación,Caña,En línea,10.48,8,1916.16
+2024-08-08,Andina,Herbicida,405,27.99,Distribuidor,Maíz,Distribuidor,19.59,8,11335.95
+2024-08-09,Caribe,Herbicida,541,98.73,Asociación,Maíz,Distribuidor,69.11,8,53412.93
+2024-08-10,Pacífica,Semilla,270,18.54,Finca,Pastos,Tienda,12.98,8,5005.8
+2024-08-11,Orinoquía,Insecticida,814,52.39,Productor,Maíz,Tienda,36.67,8,42645.46
+2024-08-12,Caribe,Fertilizante,943,63.72,Distribuidor,Pastos,Distribuidor,44.6,8,60087.96
+2024-08-13,Caribe,Fertilizante,265,71.73,Distribuidor,Pastos,En línea,50.21,8,19008.45
+2024-08-14,Andina,Insecticida,743,58.17,Distribuidor,Pastos,En línea,40.72,8,43220.31
+2024-08-15,Andina,Semilla,914,5.93,Productor,Maíz,Tienda,4.15,8,5420.02
+2024-08-16,Pacífica,Herbicida,235,36.01,Finca,Pastos,En línea,25.21,8,8462.35
+2024-08-17,Orinoquía,Fertilizante,62,54.18,Distribuidor,Maíz,Tienda,37.93,8,3359.16
+2024-08-18,Andina,Suplemento,949,13.35,Asociación,Pastos,En línea,9.34,8,12669.15
+2024-08-19,Caribe,Suplemento,876,38.31,Distribuidor,Palma,Distribuidor,26.82,8,33559.56
+2024-08-20,Orinoquía,Insecticida,509,8.15,Distribuidor,Pastos,Tienda,5.7,8,4148.35
+2024-08-21,Orinoquía,Semilla,515,12.46,Distribuidor,Arroz,Tienda,8.72,8,6416.9
+2024-08-22,Caribe,Fertilizante,863,42.71,Distribuidor,Pastos,Distribuidor,29.9,8,36858.73
+2024-08-23,Andina,Semilla,373,17.61,Finca,Caña,Tienda,12.33,8,6568.53
+2024-08-24,Caribe,Fertilizante,289,58.92,Asociación,Pastos,En línea,41.24,8,17027.88
+2024-08-25,Orinoquía,Insecticida,602,70.5,Finca,Arroz,En línea,49.35,8,42441.0
+2024-08-26,Amazonía,Insecticida,723,81.06,Asociación,Arroz,Tienda,56.74,8,58606.38
+2024-08-27,Amazonía,Suplemento,167,24.01,Distribuidor,Maíz,En línea,16.81,8,4009.67
+2024-08-28,Pacífica,Semilla,641,20.91,Productor,Palma,Tienda,14.64,8,13403.31
+2024-08-29,Caribe,Suplemento,68,14.93,Finca,Pastos,Distribuidor,10.45,8,1015.24
+2024-08-30,Caribe,Semilla,736,65.46,Productor,Maíz,Tienda,45.82,8,48178.56
+2024-08-31,Pacífica,Suplemento,137,72.12,Finca,Palma,Distribuidor,50.48,8,9880.44
+2024-09-01,Pacífica,Herbicida,745,8.0,Distribuidor,Pastos,En línea,5.6,9,5960.0
+2024-09-02,Pacífica,Herbicida,730,93.94,Finca,Caña,Distribuidor,65.76,9,68576.2
+2024-09-03,Orinoquía,Herbicida,891,9.94,Distribuidor,Pastos,En línea,6.96,9,8856.54
+2024-09-04,Caribe,Herbicida,124,56.42,Finca,Arroz,Tienda,39.49,9,6996.08
+2024-09-05,Orinoquía,Fertilizante,218,72.36,Distribuidor,Arroz,En línea,50.65,9,15774.48
+2024-09-06,Pacífica,Herbicida,535,87.74,Distribuidor,Caña,Tienda,61.42,9,46940.9
+2024-09-07,Caribe,Insecticida,530,72.84,Asociación,Maíz,Tienda,50.99,9,38605.2
+2024-09-08,Orinoquía,Insecticida,561,81.16,Distribuidor,Palma,Distribuidor,56.81,9,45530.76
+2024-09-09,Orinoquía,Fertilizante,971,37.25,Asociación,Pastos,Distribuidor,26.08,9,36169.75
+2024-09-10,Pacífica,Herbicida,246,82.41,Distribuidor,Arroz,Distribuidor,57.69,9,20272.86
+2024-09-11,Caribe,Herbicida,290,12.61,Productor,Maíz,Distribuidor,8.83,9,3656.9
+2024-09-12,Pacífica,Herbicida,368,90.01,Distribuidor,Caña,En línea,63.01,9,33123.68
+2024-09-13,Caribe,Suplemento,210,57.02,Productor,Arroz,En línea,39.91,9,11974.2
+2024-09-14,Amazonía,Semilla,767,82.64,Productor,Caña,En línea,57.85,9,63384.88
+2024-09-15,Andina,Suplemento,287,47.97,Distribuidor,Pastos,Tienda,33.58,9,13767.39
+2024-09-16,Andina,Semilla,244,66.14,Productor,Palma,En línea,46.3,9,16138.16
+2024-09-17,Andina,Herbicida,503,55.01,Asociación,Arroz,En línea,38.51,9,27670.03
+2024-09-18,Pacífica,Herbicida,13,74.5,Finca,Arroz,En línea,52.15,9,968.5
+2024-09-19,Amazonía,Suplemento,675,12.75,Distribuidor,Pastos,Distribuidor,8.92,9,8606.25
+2024-09-20,Caribe,Suplemento,451,10.73,Productor,Maíz,En línea,7.51,9,4839.23
+2024-09-21,Orinoquía,Semilla,38,28.47,Distribuidor,Palma,Tienda,19.93,9,1081.86
+2024-09-22,Caribe,Insecticida,118,20.16,Asociación,Arroz,Distribuidor,14.11,9,2378.88
+2024-09-23,Orinoquía,Semilla,619,87.82,Distribuidor,Palma,Tienda,61.47,9,54360.58
+2024-09-24,Caribe,Suplemento,736,25.83,Distribuidor,Arroz,En línea,18.08,9,19010.88
+2024-09-25,Amazonía,Suplemento,814,97.71,Productor,Palma,Distribuidor,68.4,9,79535.94
+2024-09-26,Orinoquía,Fertilizante,84,37.01,Asociación,Caña,Tienda,25.91,9,3108.84
+2024-09-27,Pacífica,Suplemento,847,22.3,Finca,Arroz,En línea,15.61,9,18888.1
+2024-09-28,Caribe,Fertilizante,155,80.02,Finca,Palma,Tienda,56.01,9,12403.1
+2024-09-29,Caribe,Insecticida,137,67.58,Productor,Maíz,Tienda,47.31,9,9258.46
+2024-09-30,Orinoquía,Semilla,862,52.33,Distribuidor,Caña,Tienda,36.63,9,45108.46
+2024-10-01,Pacífica,Semilla,51,57.76,Productor,Caña,En línea,40.43,10,2945.76
+2024-10-02,Pacífica,Fertilizante,365,73.32,Productor,Maíz,En línea,51.32,10,26761.8
+2024-10-03,Amazonía,Semilla,50,26.7,Productor,Palma,Tienda,18.69,10,1335.0
+2024-10-04,Pacífica,Suplemento,943,99.65,Distribuidor,Pastos,Distribuidor,69.76,10,93969.95
+2024-10-05,Pacífica,Herbicida,43,97.61,Asociación,Maíz,Distribuidor,68.33,10,4197.23
+2024-10-06,Pacífica,Fertilizante,26,66.78,Productor,Palma,En línea,46.75,10,1736.28
+2024-10-07,Andina,Semilla,686,23.96,Distribuidor,Maíz,En línea,16.77,10,16436.56
+2024-10-08,Amazonía,Fertilizante,162,69.62,Asociación,Maíz,En línea,48.73,10,11278.44
+2024-10-09,Caribe,Fertilizante,387,11.86,Productor,Arroz,En línea,8.3,10,4589.82
+2024-10-10,Orinoquía,Herbicida,597,7.91,Finca,Palma,En línea,5.54,10,4722.27
+2024-10-11,Caribe,Suplemento,608,29.48,Asociación,Pastos,Distribuidor,20.64,10,17923.84
+2024-10-12,Amazonía,Fertilizante,638,48.95,Productor,Arroz,En línea,34.26,10,31230.1
+2024-10-13,Orinoquía,Semilla,883,87.49,Asociación,Maíz,Tienda,61.24,10,77253.67
+2024-10-14,Amazonía,Insecticida,351,74.08,Asociación,Maíz,Tienda,51.86,10,26002.08
+2024-10-15,Pacífica,Fertilizante,990,75.56,Asociación,Maíz,Distribuidor,52.89,10,74804.4
+2024-10-16,Orinoquía,Fertilizante,36,45.42,Asociación,Palma,Tienda,31.79,10,1635.12
+2024-10-17,Pacífica,Herbicida,834,37.86,Asociación,Palma,Distribuidor,26.5,10,31575.24
+2024-10-18,Caribe,Suplemento,296,40.25,Asociación,Arroz,Distribuidor,28.17,10,11914.0
+2024-10-19,Caribe,Insecticida,655,98.83,Productor,Pastos,Tienda,69.18,10,64733.65
+2024-10-20,Orinoquía,Semilla,740,8.81,Finca,Arroz,En línea,6.17,10,6519.4
+2024-10-21,Orinoquía,Insecticida,177,87.37,Distribuidor,Caña,Tienda,61.16,10,15464.49
+2024-10-22,Amazonía,Semilla,619,59.97,Asociación,Maíz,Tienda,41.98,10,37121.43
+2024-10-23,Amazonía,Suplemento,277,46.67,Distribuidor,Maíz,Distribuidor,32.67,10,12927.59
+2024-10-24,Pacífica,Semilla,758,73.9,Productor,Maíz,Tienda,51.73,10,56016.2
+2024-10-25,Orinoquía,Herbicida,830,51.23,Asociación,Arroz,Distribuidor,35.86,10,42520.9
+2024-10-26,Caribe,Herbicida,464,87.98,Finca,Arroz,En línea,61.59,10,40822.72
+2024-10-27,Amazonía,Herbicida,915,90.57,Distribuidor,Maíz,En línea,63.4,10,82871.55
+2024-10-28,Amazonía,Herbicida,694,45.06,Asociación,Arroz,En línea,31.54,10,31271.64
+2024-10-29,Caribe,Insecticida,410,31.3,Productor,Palma,Tienda,21.91,10,12833.0
+2024-10-30,Amazonía,Suplemento,931,61.27,Finca,Palma,Distribuidor,42.89,10,57042.37
+2024-10-31,Pacífica,Semilla,990,91.67,Distribuidor,Arroz,En línea,64.17,10,90753.3
+2024-11-01,Orinoquía,Semilla,485,25.01,Distribuidor,Maíz,Distribuidor,17.51,11,12129.85
+2024-11-02,Caribe,Herbicida,711,64.18,Asociación,Arroz,Distribuidor,44.93,11,45631.98
+2024-11-03,Orinoquía,Herbicida,643,65.0,Finca,Arroz,En línea,45.5,11,41795.0
+2024-11-04,Amazonía,Fertilizante,567,74.65,Finca,Arroz,En línea,52.26,11,42326.55
+2024-11-05,Amazonía,Suplemento,585,17.5,Finca,Caña,Distribuidor,12.25,11,10237.5
+2024-11-06,Caribe,Insecticida,139,73.0,Finca,Palma,En línea,51.1,11,10147.0
+2024-11-07,Pacífica,Semilla,831,91.36,Productor,Pastos,Distribuidor,63.95,11,75920.16
+2024-11-08,Andina,Fertilizante,372,22.07,Finca,Pastos,Distribuidor,15.45,11,8210.04
+2024-11-09,Caribe,Fertilizante,714,27.57,Distribuidor,Caña,En línea,19.3,11,19684.98
+2024-11-10,Andina,Semilla,828,97.28,Distribuidor,Arroz,Tienda,68.1,11,80547.84
+2024-11-11,Andina,Insecticida,702,22.19,Productor,Caña,En línea,15.53,11,15577.38
+2024-11-12,Pacífica,Fertilizante,301,86.17,Distribuidor,Caña,Tienda,60.32,11,25937.17
+2024-11-13,Andina,Fertilizante,380,51.77,Distribuidor,Maíz,Distribuidor,36.24,11,19672.6
+2024-11-14,Andina,Suplemento,803,28.49,Finca,Palma,Distribuidor,19.94,11,22877.47
+2024-11-15,Pacífica,Insecticida,38,87.72,Distribuidor,Pastos,Tienda,61.4,11,3333.36
+2024-11-16,Andina,Fertilizante,158,47.3,Productor,Arroz,Distribuidor,33.11,11,7473.4
+2024-11-17,Andina,Insecticida,788,53.91,Finca,Pastos,Tienda,37.74,11,42481.08
+2024-11-18,Andina,Semilla,305,39.13,Asociación,Pastos,Tienda,27.39,11,11934.65
+2024-11-19,Caribe,Herbicida,20,61.33,Finca,Palma,Distribuidor,42.93,11,1226.6
+2024-11-20,Caribe,Fertilizante,521,20.53,Productor,Pastos,Tienda,14.37,11,10696.13
+2024-11-21,Caribe,Suplemento,685,42.15,Finca,Pastos,En línea,29.5,11,28872.75
+2024-11-22,Pacífica,Semilla,122,97.09,Finca,Caña,En línea,67.96,11,11844.98
+2024-11-23,Amazonía,Insecticida,196,29.52,Productor,Palma,Distribuidor,20.66,11,5785.92
+2024-11-24,Andina,Semilla,816,67.39,Finca,Maíz,Distribuidor,47.17,11,54990.24
+2024-11-25,Andina,Fertilizante,753,35.89,Productor,Arroz,Tienda,25.12,11,27025.17
+2024-11-26,Pacífica,Insecticida,236,78.48,Productor,Pastos,Tienda,54.94,11,18521.28
+2024-11-27,Andina,Herbicida,319,17.43,Asociación,Arroz,Tienda,12.2,11,5560.17
+2024-11-28,Caribe,Semilla,107,97.13,Distribuidor,Maíz,Tienda,67.99,11,10392.91
+2024-11-29,Amazonía,Fertilizante,64,48.11,Distribuidor,Arroz,En línea,33.68,11,3079.04
+2024-11-30,Orinoquía,Suplemento,632,27.42,Finca,Maíz,En línea,19.19,11,17329.44
+2024-12-01,Andina,Insecticida,673,11.98,Finca,Caña,Distribuidor,8.39,12,8062.54
+2024-12-02,Caribe,Semilla,767,21.13,Asociación,Pastos,Tienda,14.79,12,16206.71
+2024-12-03,Orinoquía,Semilla,415,54.38,Asociación,Maíz,Tienda,38.07,12,22567.7
+2024-12-04,Amazonía,Herbicida,78,37.02,Asociación,Arroz,Distribuidor,25.91,12,2887.56
+2024-12-05,Orinoquía,Herbicida,321,83.74,Productor,Pastos,Tienda,58.62,12,26880.54
+2024-12-06,Caribe,Suplemento,298,45.93,Asociación,Caña,Tienda,32.15,12,13687.14
+2024-12-07,Orinoquía,Suplemento,771,28.63,Asociación,Pastos,Tienda,20.04,12,22073.73
+2024-12-08,Pacífica,Fertilizante,557,63.63,Finca,Maíz,Tienda,44.54,12,35441.91
+2024-12-09,Orinoquía,Fertilizante,760,72.14,Asociación,Caña,Tienda,50.5,12,54826.4
+2024-12-10,Andina,Suplemento,157,20.87,Productor,Arroz,Distribuidor,14.61,12,3276.59
+2024-12-11,Andina,Suplemento,476,20.92,Productor,Caña,Tienda,14.64,12,9957.92
+2024-12-12,Pacífica,Insecticida,748,8.48,Finca,Caña,Distribuidor,5.94,12,6343.04
+2024-12-13,Caribe,Herbicida,253,74.96,Asociación,Palma,Tienda,52.47,12,18964.88
+2024-12-14,Andina,Fertilizante,500,68.06,Asociación,Caña,En línea,47.64,12,34030.0
+2024-12-15,Amazonía,Herbicida,858,50.09,Productor,Caña,En línea,35.06,12,42977.22
+2024-12-16,Andina,Herbicida,967,85.2,Asociación,Pastos,En línea,59.64,12,82388.4
+2024-12-17,Andina,Suplemento,516,81.54,Asociación,Arroz,En línea,57.08,12,42074.64
+2024-12-18,Caribe,Insecticida,374,60.61,Asociación,Pastos,Distribuidor,42.43,12,22668.14
+2024-12-19,Orinoquía,Semilla,491,87.49,Distribuidor,Pastos,Distribuidor,61.24,12,42957.59
+2024-12-20,Andina,Insecticida,210,24.55,Finca,Maíz,Tienda,17.18,12,5155.5
+2024-12-21,Pacífica,Insecticida,163,15.63,Distribuidor,Pastos,En línea,10.94,12,2547.69
+2024-12-22,Orinoquía,Herbicida,459,30.63,Finca,Palma,Distribuidor,21.44,12,14059.17
+2024-12-23,Amazonía,Insecticida,510,10.42,Productor,Palma,Tienda,7.29,12,5314.2
+2024-12-24,Caribe,Fertilizante,82,55.46,Asociación,Maíz,Tienda,38.82,12,4547.72
+2024-12-25,Amazonía,Herbicida,722,93.98,Finca,Arroz,Distribuidor,65.79,12,67853.56
+2024-12-26,Orinoquía,Fertilizante,305,8.74,Distribuidor,Arroz,En línea,6.12,12,2665.7
+2024-12-27,Orinoquía,Semilla,26,16.6,Asociación,Pastos,Tienda,11.62,12,431.6
+2024-12-28,Orinoquía,Herbicida,650,47.96,Productor,Pastos,En línea,33.57,12,31174.0
+2024-12-29,Amazonía,Semilla,226,93.72,Finca,Pastos,En línea,65.6,12,21180.72
+2024-12-30,Orinoquía,Herbicida,70,35.03,Finca,Arroz,En línea,24.52,12,2452.1
+2024-12-31,Amazonía,Suplemento,948,53.19,Finca,Caña,Tienda,37.23,12,50424.12
+2025-01-01,Orinoquía,Insecticida,625,8.95,Asociación,Palma,En línea,6.26,1,5593.75
+2025-01-02,Pacífica,Suplemento,51,19.09,Distribuidor,Caña,Tienda,13.36,1,973.59
+2025-01-03,Orinoquía,Semilla,34,98.73,Distribuidor,Caña,En línea,69.11,1,3356.82
+2025-01-04,Amazonía,Insecticida,48,96.69,Finca,Arroz,Tienda,67.68,1,4641.12
+2025-01-05,Andina,Herbicida,812,5.47,Productor,Caña,En línea,3.83,1,4441.64
+2025-01-06,Orinoquía,Insecticida,140,95.42,Productor,Maíz,Distribuidor,66.79,1,13358.8
+2025-01-07,Andina,Fertilizante,507,65.72,Distribuidor,Pastos,En línea,46.0,1,33320.04
+2025-01-08,Pacífica,Insecticida,238,87.45,Productor,Maíz,En línea,61.22,1,20813.1
+2025-01-09,Caribe,Fertilizante,117,48.2,Distribuidor,Palma,Tienda,33.74,1,5639.4
+2025-01-10,Pacífica,Insecticida,181,53.98,Finca,Pastos,Tienda,37.79,1,9770.38
+2025-01-11,Orinoquía,Fertilizante,444,51.44,Distribuidor,Caña,En línea,36.01,1,22839.36
+2025-01-12,Andina,Semilla,487,68.35,Distribuidor,Palma,Distribuidor,47.84,1,33286.45
+2025-01-13,Andina,Suplemento,1665,108.89133477060508,Finca,Pastos,Distribuidor,12.79,1,181304.07
+2025-01-14,Amazonía,Herbicida,875,7.85,Productor,Caña,Tienda,5.49,1,6868.75
+2025-01-15,Andina,Insecticida,533,34.25,Distribuidor,Maíz,Distribuidor,23.98,1,18255.25
+2025-01-16,Amazonía,Suplemento,284,71.94,Distribuidor,Pastos,En línea,50.36,1,20430.96
+2025-01-17,Caribe,Herbicida,622,24.18,Finca,Caña,Tienda,16.93,1,15039.96
+2025-01-18,Orinoquía,Herbicida,53,68.98,Productor,Maíz,En línea,48.29,1,3655.94
+2025-01-19,Amazonía,Fertilizante,964,97.14,Distribuidor,Palma,Tienda,68.0,1,93642.96
+2025-01-20,Caribe,Semilla,826,13.92,Finca,Palma,Tienda,9.74,1,11497.92
+2025-01-21,Andina,Semilla,966,68.9,Distribuidor,Palma,Tienda,48.23,1,66557.4
+2025-01-22,Andina,Suplemento,26,47.16,Asociación,Palma,Tienda,33.01,1,1226.16
+2025-01-23,Caribe,Semilla,339,87.47,Finca,Arroz,Distribuidor,61.23,1,29652.33
+2025-01-24,Andina,Insecticida,578,21.83,Productor,Pastos,En línea,15.28,1,12617.74
+2025-01-25,Caribe,Semilla,832,70.8,Productor,Pastos,En línea,49.56,1,58905.6
+2025-01-26,Amazonía,Suplemento,506,84.62,Productor,Arroz,En línea,59.23,1,42817.72
+2025-01-27,Amazonía,Semilla,824,94.74,Productor,Caña,Tienda,66.32,1,78065.76
+2025-01-28,Caribe,Insecticida,21,69.91,Distribuidor,Caña,Distribuidor,48.94,1,1468.11
+2025-01-29,Amazonía,Fertilizante,327,52.23,Distribuidor,Palma,En línea,36.56,1,17079.21
+2025-01-30,Amazonía,Suplemento,601,63.7,Productor,Maíz,Distribuidor,44.59,1,38283.7
+2025-01-31,Amazonía,Fertilizante,225,87.55,Productor,Caña,Tienda,61.28,1,19698.75
+2025-02-01,Pacífica,Fertilizante,348,59.21,Productor,Maíz,En línea,41.45,2,20605.08
+2025-02-02,Orinoquía,Fertilizante,785,7.89,Distribuidor,Pastos,Distribuidor,5.52,2,6193.65
+2025-02-03,Andina,Herbicida,670,93.44,Productor,Maíz,Tienda,65.41,2,62604.8
+2025-02-04,Pacífica,Herbicida,90,70.51,Productor,Pastos,Distribuidor,49.36,2,6345.9
+2025-02-05,Amazonía,Fertilizante,736,69.27,Asociación,Arroz,En línea,48.49,2,50982.72
+2025-02-06,Caribe,Suplemento,494,25.49,Asociación,Arroz,En línea,17.84,2,12592.06
+2025-02-07,Amazonía,Insecticida,383,67.59,Productor,Palma,Tienda,47.31,2,25886.97
+2025-02-08,Orinoquía,Insecticida,985,42.42,Finca,Caña,Tienda,29.69,2,41783.7
+2025-02-09,Amazonía,Semilla,719,66.87,Productor,Palma,Tienda,46.81,2,48079.53
+2025-02-10,Caribe,Suplemento,209,15.13,Asociación,Pastos,Distribuidor,10.59,2,3162.17
+2025-02-11,Orinoquía,Herbicida,546,67.5,Finca,Palma,Distribuidor,47.25,2,36855.0
+2025-02-12,Amazonía,Fertilizante,475,99.94,Finca,Maíz,Distribuidor,69.96,2,47471.5
+2025-02-13,Orinoquía,Semilla,98,9.58,Productor,Pastos,Tienda,6.71,2,938.84
+2025-02-14,Andina,Insecticida,277,97.83,Asociación,Arroz,En línea,68.48,2,27098.91
+2025-02-15,Andina,Herbicida,664,43.66,Asociación,Caña,En línea,30.56,2,28990.24
+2025-02-16,Amazonía,Herbicida,580,87.72,Finca,Pastos,Distribuidor,61.4,2,50877.6
+2025-02-17,Orinoquía,Fertilizante,931,79.33,Productor,Pastos,Distribuidor,55.53,2,73856.23
+2025-02-18,Caribe,Insecticida,498,58.87,Distribuidor,Maíz,En línea,41.21,2,29317.26
+2025-02-19,Amazonía,Suplemento,886,75.15,Distribuidor,Caña,En línea,52.6,2,66582.9
+2025-02-20,Andina,Herbicida,547,88.46,Asociación,Arroz,Distribuidor,61.92,2,48387.62
+2025-02-21,Andina,Fertilizante,56,43.39,Distribuidor,Pastos,Distribuidor,30.37,2,2429.84
+2025-02-22,Amazonía,Suplemento,297,36.07,Asociación,Pastos,En línea,25.25,2,10712.79
+2025-02-23,Orinoquía,Insecticida,787,68.42,Asociación,Maíz,Tienda,47.89,2,53846.54
+2025-02-24,Andina,Herbicida,25,81.75,Asociación,Palma,Distribuidor,57.22,2,2043.75
+2025-02-25,Orinoquía,Suplemento,720,77.42,Distribuidor,Arroz,En línea,54.19,2,55742.4
+2025-02-26,Andina,Suplemento,410,80.79,Asociación,Caña,En línea,56.55,2,33123.9
+2025-02-27,Andina,Suplemento,928,46.38,Finca,Pastos,En línea,32.47,2,43040.64
+2025-02-28,Pacífica,Herbicida,803,82.69,Productor,Pastos,En línea,57.88,2,66400.07
+2025-03-01,Andina,Herbicida,990,16.42,Productor,Arroz,Tienda,11.49,3,16255.8
+2025-03-02,Caribe,Semilla,95,56.73,Asociación,Palma,En línea,39.71,3,5389.35
+2025-03-03,Amazonía,Insecticida,259,5.55,Productor,Pastos,Distribuidor,3.88,3,1437.45
+2025-03-04,Amazonía,Fertilizante,400,35.84,Distribuidor,Arroz,Tienda,25.09,3,14336.0
+2025-03-05,Orinoquía,Suplemento,791,39.81,Distribuidor,Maíz,En línea,27.87,3,31489.71
+2025-03-06,Andina,Semilla,344,42.64,Productor,Palma,Tienda,29.85,3,14668.16
+2025-03-07,Caribe,Fertilizante,638,71.07,Distribuidor,Caña,Distribuidor,49.75,3,45342.66
+2025-03-08,Orinoquía,Semilla,528,41.91,Productor,Pastos,En línea,29.34,3,22128.48
+2025-03-09,Pacífica,Herbicida,146,47.63,Productor,Arroz,Distribuidor,33.34,3,6953.98
+2025-03-10,Orinoquía,Suplemento,892,27.57,Productor,Maíz,En línea,19.3,3,24592.44
+2025-03-11,Orinoquía,Fertilizante,697,40.46,Asociación,Caña,En línea,28.32,3,28200.62
+2025-03-12,Andina,Fertilizante,849,26.59,Productor,Arroz,En línea,18.61,3,22574.91
+2025-03-13,Pacífica,Fertilizante,507,11.95,Asociación,Arroz,En línea,8.36,3,6058.65
+2025-03-14,Orinoquía,Fertilizante,836,62.33,Productor,Caña,En línea,43.63,3,52107.88
+2025-03-15,Caribe,Fertilizante,736,68.48,Productor,Maíz,Tienda,47.94,3,50401.28
+2025-03-16,Caribe,Semilla,486,63.85,Productor,Maíz,En línea,44.7,3,31031.1
+2025-03-17,Amazonía,Suplemento,603,49.03,Distribuidor,Palma,En línea,34.32,3,29565.09
+2025-03-18,Pacífica,Herbicida,232,41.08,Asociación,Pastos,Tienda,28.76,3,9530.56
+2025-03-19,Pacífica,Herbicida,999,87.02,Asociación,Caña,Tienda,60.91,3,86932.98
+2025-03-20,Amazonía,Herbicida,381,54.31,Productor,Caña,Tienda,38.02,3,20692.11
+2025-03-21,Orinoquía,Herbicida,944,50.52,Productor,Caña,Tienda,35.36,3,47690.88
+2025-03-22,Pacífica,Semilla,411,7.44,Distribuidor,Maíz,Tienda,5.21,3,3057.84
+2025-03-23,Caribe,Insecticida,452,37.42,Distribuidor,Pastos,Tienda,26.19,3,16913.84
+2025-03-24,Caribe,Suplemento,499,41.12,Distribuidor,Palma,En línea,28.78,3,20518.88
+2025-03-25,Andina,Fertilizante,624,42.89,Asociación,Arroz,En línea,30.02,3,26763.36
+2025-03-26,Pacífica,Insecticida,282,60.12,Asociación,Arroz,Distribuidor,42.08,3,16953.84
+2025-03-27,Orinoquía,Herbicida,535,55.69,Asociación,Caña,En línea,38.98,3,29794.15
+2025-03-28,Amazonía,Insecticida,168,62.75,Productor,Pastos,En línea,43.92,3,10542.0
+2025-03-29,Amazonía,Suplemento,161,77.66,Asociación,Maíz,Tienda,54.36,3,12503.26
+2025-03-30,Orinoquía,Fertilizante,629,82.23,Finca,Pastos,Tienda,57.56,3,51722.67
+2025-03-31,Andina,Fertilizante,197,73.22,Finca,Pastos,En línea,51.25,3,14424.34
+2025-04-01,Amazonía,Suplemento,822,95.77,Distribuidor,Maíz,Distribuidor,67.04,4,78722.94
+2025-04-02,Pacífica,Suplemento,107,6.73,Asociación,Caña,Tienda,4.71,4,720.11
+2025-04-03,Andina,Herbicida,140,23.6,Finca,Pastos,En línea,16.52,4,3304.0
+2025-04-04,Pacífica,Fertilizante,814,5.72,Distribuidor,Arroz,En línea,4.0,4,4656.08
+2025-04-05,Caribe,Insecticida,180,66.51,Asociación,Maíz,Distribuidor,46.56,4,11971.8
+2025-04-06,Andina,Semilla,945,90.31,Productor,Palma,Distribuidor,63.22,4,85342.95
+2025-04-07,Amazonía,Semilla,995,28.13,Finca,Caña,Tienda,19.69,4,27989.35
+2025-04-08,Andina,Suplemento,192,93.07,Productor,Maíz,Distribuidor,65.15,4,17869.44
+2025-04-09,Andina,Herbicida,992,10.73,Asociación,Palma,En línea,7.51,4,10644.16
+2025-04-10,Andina,Semilla,373,93.77,Finca,Palma,En línea,65.64,4,34976.21
+2025-04-11,Andina,Fertilizante,48,38.4,Asociación,Pastos,Distribuidor,26.88,4,1843.2
+2025-04-12,Pacífica,Suplemento,536,14.63,Productor,Pastos,Distribuidor,10.24,4,7841.68
+2025-04-13,Caribe,Insecticida,13455,304.91957782507694,Finca,Pastos,Distribuidor,35.81,4,4102692.92
+2025-04-14,Orinoquía,Suplemento,506,29.39,Productor,Maíz,Distribuidor,20.57,4,14871.34
+2025-04-15,Andina,Insecticida,525,32.06,Asociación,Maíz,Tienda,22.44,4,16831.5
+2025-04-16,Amazonía,Suplemento,358,34.19,Asociación,Caña,Distribuidor,23.93,4,12240.02
+2025-04-17,Andina,Suplemento,991,81.29,Productor,Pastos,Tienda,56.9,4,80558.39
+2025-04-18,Amazonía,Suplemento,930,56.22,Finca,Palma,En línea,39.35,4,52284.6
+2025-04-19,Pacífica,Insecticida,406,34.57,Productor,Arroz,Distribuidor,24.2,4,14035.42
+2025-04-20,Amazonía,Insecticida,731,62.98,Asociación,Caña,Tienda,44.09,4,46038.38
+2025-04-21,Orinoquía,Suplemento,170,73.03,Productor,Maíz,Distribuidor,51.12,4,12415.1
+2025-04-22,Caribe,Semilla,25,30.9,Asociación,Caña,En línea,21.63,4,772.5
+2025-04-23,Amazonía,Herbicida,502,44.29,Productor,Caña,En línea,31.0,4,22233.58
+2025-04-24,Amazonía,Herbicida,435,16.58,Finca,Caña,En línea,11.61,4,7212.3
+2025-04-25,Caribe,Herbicida,117,22.21,Finca,Caña,Distribuidor,15.55,4,2598.57
+2025-04-26,Orinoquía,Insecticida,903,69.71,Productor,Arroz,Distribuidor,48.8,4,62948.13
+2025-04-27,Andina,Insecticida,459,22.24,Productor,Pastos,Tienda,15.57,4,10208.16
+2025-04-28,Amazonía,Semilla,320,54.89,Finca,Palma,En línea,38.42,4,17564.8
+2025-04-29,Caribe,Herbicida,748,72.36,Asociación,Caña,Distribuidor,50.65,4,54125.28
+2025-04-30,Pacífica,Herbicida,179,15.15,Finca,Caña,En línea,10.6,4,2711.85
+2025-05-01,Caribe,Suplemento,555,58.89,Asociación,Caña,En línea,41.22,5,32683.95
+2025-05-02,Pacífica,Insecticida,423,29.37,Productor,Pastos,Tienda,20.56,5,12423.51
+2025-05-03,Orinoquía,Herbicida,260,96.48,Productor,Maíz,Tienda,67.54,5,25084.8
+2025-05-04,Andina,Semilla,768,50.94,Asociación,Maíz,Tienda,35.66,5,39121.92
+2025-05-05,Caribe,Semilla,790,81.57,Productor,Arroz,Tienda,57.1,5,64440.3
+2025-05-06,Amazonía,Herbicida,150,57.27,Asociación,Maíz,En línea,40.09,5,8590.5
+2025-05-07,Orinoquía,Insecticida,283,9.12,Distribuidor,Caña,Tienda,6.38,5,2580.96
+2025-05-08,Caribe,Semilla,425,65.15,Finca,Caña,Tienda,45.6,5,27688.75
+2025-05-09,Amazonía,Suplemento,617,95.38,Distribuidor,Caña,Tienda,66.77,5,58849.46
+2025-05-10,Caribe,Semilla,748,62.15,Asociación,Arroz,Tienda,43.5,5,46488.2
+2025-05-11,Pacífica,Fertilizante,900,82.82,Finca,Caña,En línea,57.97,5,74538.0
+2025-05-12,Caribe,Fertilizante,48,89.0,Asociación,Maíz,Tienda,62.3,5,4272.0
+2025-05-13,Caribe,Insecticida,823,26.67,Finca,Pastos,En línea,18.67,5,21949.41
+2025-05-14,Caribe,Herbicida,38,25.14,Finca,Pastos,Distribuidor,17.6,5,955.32
