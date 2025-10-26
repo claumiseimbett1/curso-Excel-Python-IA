@@ -1,0 +1,22 @@
+{
+  "model_name": "Lasso",
+  "fecha_entrenamiento": "2025-10-25 19:31:41",
+  "metricas": {
+    "R2_test": 0.7165,
+    "RMSE_test": 552.5657,
+    "MAE_test": 459.339,
+    "CV_R2_mean": 0.7664,
+    "CV_R2_std": 0.0462
+  },
+  "feature_names": [
+    "NDVI Outlier Manual",
+    "NDRE Outlier Manual",
+    "PRECIPITACION Outlier Manual",
+    "DIAS SIN LLUVIA Estadistica",
+    "Tipo_suelo"
+  ],
+  "n_features": 5,
+  "n_train_samples": 206,
+  "n_test_samples": 89,
+  "hiperparametros": "{'alpha': 10.0}"
+}
