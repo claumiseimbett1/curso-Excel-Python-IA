@@ -1,0 +1,17 @@
+================================================================================
+RESUMEN DE ARCHIVOS GENERADOS - ANÁLISIS DE PREDICCIÓN DE BIOMASA
+================================================================================
+
+Fecha: 2025-10-25 19:31:41
+Mejor modelo: Lasso
+R² Score: 0.7165
+RMSE: 552.57
+
+
+📊 REPORTE DE ANÁLISIS
+--------------------------------------------------------------------------------
+  • Reporte_Biomasa_ML_20251025_193140.xlsx
+    Reporte completo con 4 hojas (Ejecutivo, Modelos, Predicciones, Variables)
+
+
+Total de archivos: 1
