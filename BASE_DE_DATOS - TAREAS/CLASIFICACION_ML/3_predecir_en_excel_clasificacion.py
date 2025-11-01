@@ -61,10 +61,10 @@ def cargar_modelo():
         info = json.load(f)
     print("✓ Información cargada")
 
-    print(f"\nModelo: {info['model_name']}")
-    print(f"Clases: {', '.join(info['classes'])}")
-    print(f"Accuracy: {info['metricas']['Accuracy_test']:.4f}")
-    print(f"F1-Score: {info['metricas']['F1_test']:.4f}")
+    print(f"\nModelo: {info['modelo']}")
+    print(f"Clases: {', '.join(info['clases'])}")
+    print(f"Accuracy: {info['metricas']['accuracy_test']:.4f}")
+    print(f"F1-Score: {info['metricas']['f1_test']:.4f}")
 
     return model, scaler, le_target, info
 
@@ -283,7 +283,7 @@ def main():
     if model is None:
         return
 
-    feature_names = info['feature_names']
+    feature_names = info['variables_predictoras']
 
     # 2. Leer datos
     df = leer_datos_excel(filename, feature_names)

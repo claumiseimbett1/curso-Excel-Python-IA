@@ -39,10 +39,10 @@ def crear_plantilla_excel_clasificacion():
     with open('model_info_clasificacion.json', 'r', encoding='utf-8') as f:
         model_info = json.load(f)
 
-    feature_names = model_info['feature_names']
-    classes = model_info['classes']
+    feature_names = model_info['variables_predictoras']
+    classes = model_info['clases']
 
-    print(f"✓ Modelo cargado: {model_info['model_name']}")
+    print(f"✓ Modelo cargado: {model_info['modelo']}")
     print(f"✓ Clases: {', '.join(classes)}")
     print(f"✓ Variables: {len(feature_names)}\n")
 
@@ -71,7 +71,7 @@ def crear_plantilla_excel_clasificacion():
     ws.row_dimensions[1].height = 30
 
     # Información del modelo
-    ws['A2'] = f'📊 Modelo: {model_info["model_name"]} | Accuracy: {model_info["metricas"]["Accuracy_test"]:.4f} | F1-Score: {model_info["metricas"]["F1_test"]:.4f}'
+    ws['A2'] = f'📊 Modelo: {model_info["modelo"]} | Accuracy: {model_info["metricas"]["accuracy_test"]:.4f} | F1-Score: {model_info["metricas"]["f1_test"]:.4f}'
     ws['A2'].font = Font(italic=True, size=10, color="555555")
     ws.merge_cells('A2:F2')
     ws['A2'].alignment = Alignment(horizontal='center')
@@ -180,13 +180,13 @@ def crear_plantilla_excel_clasificacion():
         "📊 INFORMACIÓN DEL MODELO",
         "═" * 80,
         "",
-        f"   Modelo:            {model_info['model_name']}",
+        f"   Modelo:            {model_info['modelo']}",
         f"   Tipo:              Clasificación",
         f"   Clases:            {', '.join(classes)}",
-        f"   Accuracy:          {model_info['metricas']['Accuracy_test']:.4f}",
-        f"   Precision:         {model_info['metricas']['Precision_test']:.4f}",
-        f"   Recall:            {model_info['metricas']['Recall_test']:.4f}",
-        f"   F1-Score:          {model_info['metricas']['F1_test']:.4f}",
+        f"   Accuracy:          {model_info['metricas']['accuracy_test']:.4f}",
+        f"   Precision:         {model_info['metricas']['precision_test']:.4f}",
+        f"   Recall:            {model_info['metricas']['recall_test']:.4f}",
+        f"   F1-Score:          {model_info['metricas']['f1_test']:.4f}",
         f"   Entrenado:         {model_info['fecha_entrenamiento']}",
         "",
         "",

@@ -1,0 +1,57 @@
+================================================================================
+RESUMEN DE ARCHIVOS GENERADOS - CLASIFICACIÓN DE BIOMASA
+================================================================================
+
+Fecha de generación: 2025-10-26 10:26:22
+Mejor modelo: Logistic Regression
+Accuracy: 0.8778
+F1-Score: 0.8717
+
+🤖 MODELO DE CLASIFICACIÓN
+--------------------------------------------------------------------------------
+  • best_model_clasificacion.pkl
+    Modelo de clasificación entrenado
+
+  • model_info_clasificacion.json
+    Metadatos y métricas del modelo
+
+📊 REPORTE DE ANÁLISIS
+--------------------------------------------------------------------------------
+  • Reporte_Clasificacion_Biomasa_20251026_102620.xlsx
+    Reporte completo con resultados (4 hojas)
+
+📁 DATOS DE EJEMPLO
+--------------------------------------------------------------------------------
+  • Datos_Nuevos_Ejemplo_Clasificacion_20251026_102622.xlsx
+    Plantilla con datos de ejemplo para predicciones
+
+================================================================================
+CONTENIDO DE LOS ARCHIVOS:
+================================================================================
+
+  Modelo (.pkl/.joblib)      | Modelo entrenado + Scaler + Imputer + LabelEncoder
+  Metadatos (.json)          | Información del modelo, métricas y parámetros
+  Reporte Excel              | 4 hojas: Resumen, Comparación, Predicciones, Variables
+  Datos Ejemplo              | Plantilla para nuevas predicciones
+
+================================================================================
+💡 INSTRUCCIONES DE USO:
+--------------------------------------------------------------------------------
+
+  1. PARA REALIZAR NUEVAS PREDICCIONES:
+     • Prepare un archivo Excel con las columnas requeridas
+     • Use: predecir_desde_excel_clasificacion('su_archivo.xlsx')
+
+  2. PARA CARGAR EL MODELO EN OTRA SESIÓN:
+     • import joblib
+     • modelo = joblib.load('best_model_clasificacion.pkl')
+     • predicciones = modelo.predict(datos_nuevos)
+
+  3. PARA REVISAR RESULTADOS:
+     • Abra el archivo de reporte Excel
+     • Revise cada hoja para análisis detallado
+
+  4. PARA COMPARTIR EL MODELO:
+     • Comparta los archivos .pkl y .json
+     • Incluya la lista de variables predictoras
+================================================================================

@@ -1,0 +1,29 @@
+{
+  "modelo": "Logistic Regression",
+  "fecha_entrenamiento": "2025-10-26 10:26:22",
+  "metricas": {
+    "accuracy_test": 0.8778,
+    "precision_test": 0.8671,
+    "recall_test": 0.8778,
+    "f1_test": 0.8717,
+    "cv_accuracy_mean": 0.8571,
+    "cv_accuracy_std": 0.0301
+  },
+  "clases": [
+    "Alta",
+    "Baja",
+    "Media"
+  ],
+  "variables_predictoras": [
+    "NDVI Outlier Manual",
+    "NDRE Outlier Manual",
+    "PRECIPITACION Outlier Manual",
+    "DIAS SIN LLUVIA Estadistica",
+    "Tipo_suelo"
+  ],
+  "usa_escalado": true,
+  "parametros": {
+    "C": 0.1,
+    "solver": "lbfgs"
+  }
+}

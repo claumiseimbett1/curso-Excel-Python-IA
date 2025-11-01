@@ -56,12 +56,12 @@ def clasificar_biomasa_simple(archivo_excel='Plantilla_Clasificacion_Biomasa.xls
     with open('model_info_clasificacion.json', 'r') as f:
         info = json.load(f)
 
-    features = info['feature_names']
-    classes = info['classes']
+    features = info['variables_predictoras']
+    classes = info['clases']
 
-    print(f"   ✓ Modelo: {info['model_name']}")
+    print(f"   ✓ Modelo: {info['modelo']}")
     print(f"   ✓ Clases: {', '.join(classes)}")
-    print(f"   ✓ Accuracy: {info['metricas']['Accuracy_test']:.4f}")
+    print(f"   ✓ Accuracy: {info['metricas']['accuracy_test']:.4f}")
 
     # Leer Excel
     print(f"\n📊 Leyendo Excel: {archivo_excel}...")
@@ -179,7 +179,7 @@ def clasificar_valores_directos(**kwargs):
     with open('model_info_clasificacion.json', 'r') as f:
         info = json.load(f)
 
-    features = info['feature_names']
+    features = info['variables_predictoras']
 
     # Verificar valores
     faltantes = [f for f in features if f not in kwargs]
