@@ -1,0 +1,29 @@
+{
+  "modelo": "Decision Tree",
+  "fecha_entrenamiento": "2025-11-09 13:19:21",
+  "metricas": {
+    "accuracy_train": 1.0,
+    "accuracy_test": 0.9891304347826086,
+    "precision": 0.9846153846153847,
+    "recall": 1.0,
+    "f1_score": 0.9922480620155039,
+    "auc_roc": 0.9821428571428572,
+    "cv_mean": 0.9918548685671972,
+    "cv_std": 0.006650815473332936
+  },
+  "clases": [
+    "No",
+    "Sí"
+  ],
+  "variables_predictoras": [
+    "Sector",
+    "Consumo_kWh_Mensual",
+    "Estrato",
+    "Ciudad",
+    "Area_m2",
+    "Factura_Mensual_COP"
+  ],
+  "total_registros": 460,
+  "train_size": 368,
+  "test_size": 92
+}
