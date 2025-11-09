@@ -5,9 +5,9 @@ Este script lee el archivo Excel con nuevos datos, hace predicciones,
 y escribe los resultados en el MISMO archivo.
 
 INSTRUCCIONES:
-1. Asegúrate de haber llenado el Excel: Plantilla_Prediccion_Biomasa.xlsx
+1. Asegúrate de haber llenado el Excel: Plantilla_Prediccion_Consumo.xlsx
 2. Ejecuta este script: python 3_predecir_en_excel.py
-3. Las predicciones se escribirán en la columna 'Biomasa_Predicha'
+3. Las predicciones se escribirán en la columna 'Consumo_kWh_Mensual_Predicho'
 """
 
 import pickle
@@ -24,7 +24,7 @@ def cargar_modelo():
     """Carga el modelo entrenado, scaler e información"""
 
     print("=" * 70)
-    print("SISTEMA DE PREDICCIÓN DE BIOMASA")
+    print("SISTEMA DE PREDICCIÓN DE CONSUMO ENERGÉTICO")
     print("=" * 70)
 
     # Verificar archivos necesarios
@@ -133,14 +133,21 @@ def preprocesar_datos(df, feature_names, scaler):
     if len(categorical_cols) > 0:
         print(f"\n✓ Codificando variables categóricas: {list(categorical_cols)}")
 
-        # Mapeo para Tipo_suelo (ajusta según tus datos)
-        tipo_suelo_map = {'Arenoso': 0, 'Arcilloso': 1, 'Franco': 2}
+        # Mapeos para las variables categóricas
+        sector_map = {'Residencial': 0, 'Comercial': 1, 'Industrial': 2}
+        ciudad_map = {'Montería': 0, 'Sahagún': 1, 'Planeta Rica': 2, 'Cereté': 3, 'Lorica': 4}
+        puede_pagar_map = {'No': 0, 'Sí': 1, 'Si': 1}
 
         for col in categorical_cols:
-            if col == 'Tipo_suelo':
-                X[col] = X[col].map(tipo_suelo_map)
-                # Si hay valores no mapeados, usar el más común (Franco = 2)
-                X[col].fillna(2, inplace=True)
+            if col == 'Sector':
+                X[col] = X[col].map(sector_map)
+                X[col].fillna(0, inplace=True)  # Residencial por defecto
+            elif col == 'Ciudad':
+                X[col] = X[col].map(ciudad_map)
+                X[col].fillna(0, inplace=True)  # Montería por defecto
+            elif col == 'Puede_Pagar_Solar':
+                X[col] = X[col].map(puede_pagar_map)
+                X[col].fillna(0, inplace=True)  # No por defecto
             else:
                 # Para otras categóricas, usar label encoding simple
                 X[col] = pd.Categorical(X[col]).codes
@@ -190,12 +197,12 @@ def escribir_resultados(filename, predicciones, df_original):
 
     for col in range(1, ws.max_column + 1):
         cell_value = ws.cell(row=header_row, column=col).value
-        if cell_value == 'Biomasa_Predicha':
+        if cell_value == 'Consumo_kWh_Mensual_Predicho':
             pred_col = col
             break
 
     if pred_col is None:
-        print("❌ ERROR: No se encuentra la columna 'Biomasa_Predicha'")
+        print("❌ ERROR: No se encuentra la columna 'Consumo_kWh_Mensual_Predicho'")
         return False
 
     # Escribir predicciones (empezando en fila 6)
@@ -217,7 +224,7 @@ def escribir_resultados(filename, predicciones, df_original):
     wb.save(filename)
 
     print(f"✓ Resultados escritos en: {filename}")
-    print(f"  Columna: Biomasa_Predicha")
+    print(f"  Columna: Consumo_kWh_Mensual_Predicho")
     print(f"  Filas actualizadas: {len(predicciones)}")
 
     return True
@@ -226,7 +233,7 @@ def escribir_resultados(filename, predicciones, df_original):
 def main():
     """Función principal"""
 
-    filename = 'Plantilla_Prediccion_Biomasa.xlsx'
+    filename = 'Plantilla_Prediccion_Consumo.xlsx'
 
     # 1. Cargar modelo
     model, scaler, info = cargar_modelo()
@@ -266,7 +273,7 @@ def main():
         print("✓ ¡PROCESO COMPLETADO EXITOSAMENTE!")
         print("=" * 70)
         print(f"\nAbre el archivo {filename} para ver las predicciones")
-        print("Las predicciones están en la columna 'Biomasa_Predicha' (fondo verde)")
+        print("Las predicciones están en la columna 'Consumo_kWh_Mensual_Predicho' (fondo verde)")
         print("\n" + "=" * 70)
 
 

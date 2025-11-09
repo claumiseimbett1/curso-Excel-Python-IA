@@ -29,9 +29,9 @@ def crear_codigo_vba():
     """Genera el código VBA que ejecutará las predicciones"""
 
     vba_code = '''
-Sub PredecirBiomasa()
+Sub PredecirConsumo()
     '=============================================================================
-    ' MACRO: Predicción de Biomasa usando Machine Learning
+    ' MACRO: Predicción de Consumo Energético usando Machine Learning
     '=============================================================================
     ' Esta macro ejecuta el script Python que hace las predicciones y actualiza
     ' automáticamente este archivo Excel con los resultados
@@ -50,8 +50,8 @@ Sub PredecirBiomasa()
     Application.DisplayAlerts = False
 
     ' Mensaje inicial
-    MsgBox "Iniciando predicción de biomasa..." & vbCrLf & vbCrLf & _
-           "Este proceso puede tomar unos segundos.", vbInformation, "Predictor de Biomasa"
+    MsgBox "Iniciando predicción de consumo energético..." & vbCrLf & vbCrLf & _
+           "Este proceso puede tomar unos segundos.", vbInformation, "Predictor de Consumo"
 
     ' Guardar el archivo antes de ejecutar Python
     ThisWorkbook.Save
@@ -180,7 +180,7 @@ def crear_excel_con_boton():
 
     # ==================== ÁREA DEL BOTÓN ====================
     ws.merge_cells('A1:C1')
-    ws['A1'] = '🎯 PREDECIR BIOMASA'
+    ws['A1'] = '🎯 PREDECIR CONSUMO'
     ws['A1'].font = Font(bold=True, size=14, color="FFFFFF", name='Arial')
     ws['A1'].fill = button_fill
     ws['A1'].alignment = Alignment(horizontal='center', vertical='center')
@@ -228,7 +228,7 @@ def crear_excel_con_boton():
     # Columna de predicción
     pred_col = len(feature_names) + 2
     cell = ws.cell(row=header_row, column=pred_col)
-    cell.value = 'Biomasa_Predicha'
+    cell.value = 'Consumo_kWh_Mensual_Predicho'
     cell.font = pred_font
     cell.fill = pred_fill
     cell.alignment = Alignment(horizontal='center', vertical='center')
@@ -314,10 +314,10 @@ def crear_excel_con_boton():
         "",
         "7. Asigna la macro al botón verde de la hoja principal",
         "   • Ve a la hoja 'Datos para Predicción'",
-        "   • Haz clic derecho en la celda verde 'PREDECIR BIOMASA' (A1:C1)",
+        "   • Haz clic derecho en la celda verde 'PREDECIR CONSUMO' (A1:C1)",
         "   • Puedes crear un botón: Developer → Insert → Button (Form Control)",
         "   • Arrastra para crear el botón sobre las celdas A1:C1",
-        "   • Selecciona la macro 'PredecirBiomasa'",
+        "   • Selecciona la macro 'PredecirConsumo'",
         "",
         "8. Guarda el archivo y prueba el botón",
         "",
@@ -368,7 +368,7 @@ def crear_excel_con_boton():
 
     # ==================== GUARDAR ====================
     # Guardar como .xlsx primero (el usuario lo convertirá a .xlsm)
-    filename = 'Plantilla_Prediccion_Con_Boton.xlsx'
+    filename = 'Plantilla_Prediccion_Consumo_Con_Boton.xlsx'
     wb.save(filename)
 
     # También guardar el código VBA en un archivo separado

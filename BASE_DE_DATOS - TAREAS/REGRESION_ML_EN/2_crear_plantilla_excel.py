@@ -5,7 +5,7 @@ Este script crea un archivo Excel con las columnas necesarias para hacer predicc
 
 INSTRUCCIONES:
 1. Ejecuta este script: python 2_crear_plantilla_excel.py
-2. Se creará el archivo: Plantilla_Prediccion_Biomasa.xlsx
+2. Se creará el archivo: Plantilla_Prediccion_Consumo.xlsx
 3. Llena los datos en el Excel
 4. Ejecuta el script de predicción (3_predecir_en_excel.py)
 """
@@ -95,7 +95,7 @@ def crear_plantilla_excel():
     )
 
     # Título
-    ws['A1'] = 'PLANTILLA DE PREDICCIÓN DE BIOMASA'
+    ws['A1'] = 'PLANTILLA DE PREDICCIÓN DE CONSUMO ENERGÉTICO'
     ws['A1'].font = Font(bold=True, size=14, color="1F4788")
     ws.merge_cells('A1:E1')
 
@@ -127,7 +127,7 @@ def crear_plantilla_excel():
     # Columna de predicción (amarilla para distinguir)
     pred_col = len(feature_names) + 2
     cell = ws.cell(row=row, column=pred_col)
-    cell.value = 'Biomasa_Predicha'
+    cell.value = 'Consumo_kWh_Mensual_Predicho'
     cell.font = prediction_font
     cell.fill = prediction_fill
     cell.alignment = Alignment(horizontal='center')
@@ -135,9 +135,9 @@ def crear_plantilla_excel():
 
     # Agregar filas de ejemplo (fila 6 en adelante)
     ejemplos = [
-        {'ID': 1, 'NDVI': 0.75, 'NDRE': 0.65, 'PRECIPITACION': 120, 'DIAS_SIN_LLUVIA': 5, 'Tipo_suelo': 'Franco'},
-        {'ID': 2, 'NDVI': 0.68, 'NDRE': 0.58, 'PRECIPITACION': 95, 'DIAS_SIN_LLUVIA': 8, 'Tipo_suelo': 'Arcilloso'},
-        {'ID': 3, 'NDVI': 0.82, 'NDRE': 0.72, 'PRECIPITACION': 140, 'DIAS_SIN_LLUVIA': 3, 'Tipo_suelo': 'Franco'},
+        {'ID': 1, 'Sector': 'Residencial', 'Estrato': 3, 'Ciudad': 'Montería', 'Area_m2': 80, 'Puede_Pagar_Solar': 'No'},
+        {'ID': 2, 'Sector': 'Comercial', 'Estrato': 5, 'Ciudad': 'Sahagún', 'Area_m2': 150, 'Puede_Pagar_Solar': 'Sí'},
+        {'ID': 3, 'Sector': 'Residencial', 'Estrato': 2, 'Ciudad': 'Planeta Rica', 'Area_m2': 100, 'Puede_Pagar_Solar': 'No'},
     ]
 
     row = 6
@@ -147,12 +147,13 @@ def crear_plantilla_excel():
         ws[f'A{row}'].alignment = Alignment(horizontal='center')
 
         # Valores de ejemplo (ajusta según tus variables)
+        # Esto asume que feature_names tiene el orden: Sector, Estrato, Ciudad, Area_m2, Puede_Pagar_Solar
         valores_ejemplo = [
-            ejemplo.get('NDVI', 0.75),
-            ejemplo.get('NDRE', 0.65),
-            ejemplo.get('PRECIPITACION', 120),
-            ejemplo.get('DIAS_SIN_LLUVIA', 5),
-            ejemplo.get('Tipo_suelo', 'Franco')
+            ejemplo.get('Sector', 'Residencial'),
+            ejemplo.get('Estrato', 3),
+            ejemplo.get('Ciudad', 'Montería'),
+            ejemplo.get('Area_m2', 100),
+            ejemplo.get('Puede_Pagar_Solar', 'No')
         ]
 
         for col_idx, valor in enumerate(valores_ejemplo[:len(feature_names)], start=2):
@@ -203,7 +204,7 @@ def crear_plantilla_excel():
         "1. LLENAR DATOS:",
         "   - En la hoja 'Datos para Predicción', llena las columnas con tus datos",
         "   - NO modifiques los encabezados (fila 5)",
-        "   - NO llenes la columna 'Biomasa_Predicha' (se llenará automáticamente)",
+        "   - NO llenes la columna 'Consumo_kWh_Mensual_Predicho' (se llenará automáticamente)",
         "",
         "2. EJECUTAR PREDICCIÓN:",
         "   - Guarda este archivo Excel",
@@ -212,7 +213,7 @@ def crear_plantilla_excel():
         "",
         "3. VER RESULTADOS:",
         "   - Abre nuevamente este archivo Excel",
-        "   - La columna 'Biomasa_Predicha' tendrá las predicciones",
+        "   - La columna 'Consumo_kWh_Mensual_Predicho' tendrá las predicciones",
         "",
         f"INFORMACIÓN DEL MODELO:",
         f"  - Modelo: {model_info['model_name']}",
@@ -237,7 +238,7 @@ def crear_plantilla_excel():
     ws_inst.column_dimensions['A'].width = 80
 
     # Guardar archivo
-    filename = 'Plantilla_Prediccion_Biomasa.xlsx'
+    filename = 'Plantilla_Prediccion_Consumo.xlsx'
     wb.save(filename)
 
     print(f"\n✓ Plantilla creada: {filename}")
@@ -248,7 +249,7 @@ def crear_plantilla_excel():
     print("\n" + "=" * 60)
     print("PRÓXIMOS PASOS:")
     print("=" * 60)
-    print("1. Abre el archivo: Plantilla_Prediccion_Biomasa.xlsx")
+    print("1. Abre el archivo: Plantilla_Prediccion_Consumo.xlsx")
     print("2. Llena tus datos en las columnas correspondientes")
     print("3. Guarda el archivo")
     print("4. Ejecuta: python 3_predecir_en_excel.py")
