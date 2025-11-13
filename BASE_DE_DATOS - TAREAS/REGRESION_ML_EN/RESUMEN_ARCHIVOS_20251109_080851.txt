@@ -1,0 +1,17 @@
+================================================================================
+RESUMEN DE ARCHIVOS GENERADOS - ANÁLISIS DE PREDICCIÓN DE CONSUMO ENERGÉTICO
+================================================================================
+
+Fecha: 2025-11-09 08:08:51
+Mejor modelo: Random Forest
+R² Score: 0.8530
+RMSE: 968.78
+
+
+📊 REPORTE DE ANÁLISIS
+--------------------------------------------------------------------------------
+  • Reporte_Consumo_ML_20251109_080848.xlsx
+    Reporte completo con 4 hojas (Ejecutivo, Modelos, Predicciones, Variables)
+
+
+Total de archivos: 1
