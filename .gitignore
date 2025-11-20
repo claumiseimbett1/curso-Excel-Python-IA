@@ -1,0 +1,248 @@
+# ============================================================================
+# .gitignore para Proyecto de Machine Learning - Excel, Python e IA
+# ============================================================================
+
+# ============================================================================
+# ARCHIVOS DE PYTHON
+# ============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ============================================================================
+# ENTORNOS VIRTUALES
+# ============================================================================
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Conda
+.conda/
+conda-meta/
+
+# ============================================================================
+# JUPYTER NOTEBOOKS
+# ============================================================================
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Jupyter Notebook outputs (opcional - descomentar si no quieres guardar outputs)
+# *.ipynb
+
+# ============================================================================
+# MODELOS DE MACHINE LEARNING
+# ============================================================================
+# Modelos entrenados (pueden ser grandes y se regeneran)
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.tflite
+
+# Modelos con timestamps (backups automáticos)
+*_backup_*.pkl
+*_backup_*.joblib
+
+# ============================================================================
+# ARCHIVOS DE DATOS
+# ============================================================================
+# Archivos de datos grandes (descomentar si no quieres versionar datos)
+# *.csv
+# *.xlsx
+# *.xls
+# *.parquet
+# *.feather
+# *.h5
+# *.hdf5
+
+# Mantener solo archivos de datos específicos (si es necesario)
+# !BASE_DE_DATOS - TAREAS/REGRESION_ML_EN/Paneles_solares_con_outliers.xlsx
+
+# ============================================================================
+# REPORTES Y ARCHIVOS GENERADOS
+# ============================================================================
+# Reportes generados automáticamente (con timestamps)
+Reporte_*_*.xlsx
+Reporte_*_*.csv
+Reporte_*_*.pdf
+
+# Archivos de predicción generados
+Datos_Nuevos_Ejemplo_*.xlsx
+Predicciones_*.xlsx
+Predicciones_*.csv
+
+# Resúmenes de archivos generados
+RESUMEN_ARCHIVOS_*.txt
+
+# ============================================================================
+# ARCHIVOS TEMPORALES Y DE SISTEMA
+# ============================================================================
+# Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# ============================================================================
+# IDEs Y EDITORES
+# ============================================================================
+# VS Code / Cursor
+.vscode/
+.cursor/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================================
+# ARCHIVOS DE CONFIGURACIÓN SENSIBLES
+# ============================================================================
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Credenciales y secretos
+secrets.json
+config.json
+credentials.json
+*.key
+*.pem
+
+# Mantener archivos de configuración de modelo (si son necesarios)
+# !model_info.json
+
+# ============================================================================
+# LOGS Y ARCHIVOS DE REGISTRO
+# ============================================================================
+*.log
+logs/
+*.log.*
+
+# ============================================================================
+# ARCHIVOS DE POWER BI (opcional)
+# ============================================================================
+# Descomentar si no quieres versionar archivos .pbix
+# *.pbix
+
+# ============================================================================
+# ARCHIVOS DE DOCUMENTACIÓN GENERADA
+# ============================================================================
+# HTML generado (si se genera automáticamente)
+# docs/_build/
+# site/
+
+# ============================================================================
+# ARCHIVOS DE BACKUP
+# ============================================================================
+# Backups manuales
+*.bak
+*.backup
+*_backup.*
+BACKUP/old/
+BACKUP/temp/
+
+# ============================================================================
+# ARCHIVOS ESPECÍFICOS DEL PROYECTO
+# ============================================================================
+# Archivos de ejemplo generados
+ejemplo_*.xlsx
+ejemplo_*.csv
+
+# Archivos de prueba
+test_*.xlsx
+test_*.csv
+prueba_*.xlsx
+
+# ============================================================================
+# NOTAS
+# ============================================================================
+# Si necesitas incluir algún archivo que está siendo ignorado, usa:
+# git add -f nombre_archivo
+#
+# Para verificar qué archivos están siendo ignorados:
+# git status --ignored
+#
+# Para verificar si un archivo específico será ignorado:
+# git check-ignore -v nombre_archivo
+
