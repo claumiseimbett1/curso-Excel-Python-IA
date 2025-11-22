@@ -190,7 +190,9 @@ credentials.json
 *.pem
 
 # Mantener archivos de configuración de modelo (si son necesarios)
-# !model_info.json
+# IMPORTANTE: model_info.json debe ser rastreado por Git
+!model_info.json
+!**/model_info.json
 
 # ============================================================================
 # LOGS Y ARCHIVOS DE REGISTRO
