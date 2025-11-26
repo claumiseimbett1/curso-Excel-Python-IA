@@ -1,6 +1,6 @@
 {
   "model_name": "Random Forest",
-  "fecha_entrenamiento": "2025-11-20 01:08:53",
+  "fecha_entrenamiento": "2025-11-25 09:18:38",
   "metricas": {
     "R2_test": 0.853,
     "RMSE_test": 968.7818,

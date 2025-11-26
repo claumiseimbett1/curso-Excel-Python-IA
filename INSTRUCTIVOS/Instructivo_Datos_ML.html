@@ -7518,45 +7518,58 @@ a.anchor-link {
 <li>2.2 Ejemplo simple con NumPy</li>
 </ul>
 </li>
+<li><p><strong>Librería Matplotlib</strong></p>
+<ul>
+<li>3.1 Principales comandos de Matplotlib</li>
+<li>3.2 ¿Qué es Matplotlib?</li>
+<li>3.3 Ejemplo simple con Matplotlib</li>
+</ul>
+</li>
+<li><p><strong>Otras librerías de visualización</strong></p>
+<ul>
+<li>4.1 Plotly</li>
+<li>4.2 Seaborn</li>
+</ul>
+</li>
 <li><p><strong>Librería scikit-learn (sklearn)</strong></p>
 <ul>
-<li>3.1 Principales comandos de scikit-learn</li>
-<li>3.2 ¿Qué es StandardScaler?</li>
-<li>3.3 ¿Qué es LabelEncoder?</li>
-<li>3.4 ¿Qué es scikit-learn?</li>
-<li>3.5 <code>np.random.seed(42)</code> - Explicación</li>
-<li>3.6 Ejemplo simple con scikit-learn (Regresión)</li>
-<li>3.7 Ejemplo simple con scikit-learn - Clasificación con Random Forest</li>
+<li>5.1 Principales comandos de scikit-learn</li>
+<li>5.2 ¿Qué es StandardScaler?</li>
+<li>5.3 ¿Qué es LabelEncoder?</li>
+<li>5.4 ¿Qué es scikit-learn?</li>
+<li>5.5 <code>np.random.seed(42)</code> - Explicación</li>
+<li>5.6 Ejemplo simple con scikit-learn (Regresión)</li>
+<li>5.7 Ejemplo simple con scikit-learn - Clasificación con Random Forest</li>
 </ul>
 </li>
 <li><p><strong>Librería openpyxl</strong></p>
 <ul>
-<li>4.1 Principales comandos de openpyxl</li>
-<li>4.2 ¿Qué es openpyxl?</li>
-<li>4.3 Ejemplo simple con openpyxl</li>
+<li>6.1 Principales comandos de openpyxl</li>
+<li>6.2 ¿Qué es openpyxl?</li>
+<li>6.3 Ejemplo simple con openpyxl</li>
 </ul>
 </li>
 <li><p><strong>Modelos PKL (Pickle) y Joblib</strong></p>
 <ul>
-<li>5.1 ¿Qué son los modelos PKL (Pickle) y por qué se guardan?</li>
-<li>5.2 ¿Qué es Pickle?</li>
-<li>5.3 ¿Qué contiene un modelo PKL?</li>
-<li>5.4 Alternativas a Pickle</li>
-<li>5.5 ¿Qué es un Framework?</li>
-<li>5.6 Ejemplo práctico: Guardar y cargar modelos PKL</li>
-<li>5.7 Flujo completo de guardado y carga</li>
-<li>5.8 Ejemplo de despliegue en producción</li>
-<li>5.9 Casos de uso comunes para modelos PKL</li>
-<li>5.10 Mejores prácticas</li>
-<li>5.11 Resumen final: Pickle vs Joblib</li>
+<li>7.1 ¿Qué son los modelos PKL (Pickle) y por qué se guardan?</li>
+<li>7.2 ¿Qué es Pickle?</li>
+<li>7.3 ¿Qué contiene un modelo PKL?</li>
+<li>7.4 Alternativas a Pickle</li>
+<li>7.5 ¿Qué es un Framework?</li>
+<li>7.6 Ejemplo práctico: Guardar y cargar modelos PKL</li>
+<li>7.7 Flujo completo de guardado y carga</li>
+<li>7.8 Ejemplo de despliegue en producción</li>
+<li>7.9 Casos de uso comunes para modelos PKL</li>
+<li>7.10 Mejores prácticas</li>
+<li>7.11 Resumen final: Pickle vs Joblib</li>
 </ul>
 </li>
 <li><p><strong>Librería PyTorch (Opcional)</strong></p>
 <ul>
-<li>6.1 Principales comandos de PyTorch</li>
-<li>6.2 ¿Qué es PyTorch?</li>
-<li>6.3 Ejemplo simple con PyTorch</li>
-<li>6.4 Comparación: PyTorch vs scikit-learn</li>
+<li>8.1 Principales comandos de PyTorch</li>
+<li>8.2 ¿Qué es PyTorch?</li>
+<li>8.3 Ejemplo simple con PyTorch</li>
+<li>8.4 Comparación: PyTorch vs scikit-learn</li>
 </ul>
 </li>
 </ol>
@@ -8056,13 +8069,421 @@ Ordenado de mayor a menor (método directo):
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ae590f16">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="3.-Principales-comandos-de-Matplotlib"><strong>3. Principales comandos de Matplotlib</strong><a class="anchor-link" href="#3.-Principales-comandos-de-Matplotlib">¶</a></h2><p>Matplotlib es una librería de Python para crear visualizaciones y gráficos. A continuación se presentan los comandos más utilizados:</p>
+<h3 id="Importaci%C3%B3n-b%C3%A1sica"><strong>Importación básica</strong><a class="anchor-link" href="#Importaci%C3%B3n-b%C3%A1sica">¶</a></h3><ul>
+<li><code>import matplotlib.pyplot as plt</code> - Importar matplotlib (convención estándar)</li>
+<li><code>%matplotlib inline</code> - Mostrar gráficos en notebooks Jupyter</li>
+</ul>
+<h3 id="Creaci%C3%B3n-de-gr%C3%A1ficos-b%C3%A1sicos"><strong>Creación de gráficos básicos</strong><a class="anchor-link" href="#Creaci%C3%B3n-de-gr%C3%A1ficos-b%C3%A1sicos">¶</a></h3><ul>
+<li><code>plt.plot(x, y)</code> - Gráfico de línea</li>
+<li><code>plt.scatter(x, y)</code> - Gráfico de dispersión (puntos)</li>
+<li><code>plt.bar(x, y)</code> - Gráfico de barras verticales</li>
+<li><code>plt.barh(x, y)</code> - Gráfico de barras horizontales</li>
+<li><code>plt.hist(data)</code> - Histograma</li>
+<li><code>plt.boxplot(data)</code> - Diagrama de caja (boxplot)</li>
+<li><code>plt.pie(values, labels=labels)</code> - Gráfico circular (pie chart)</li>
+</ul>
+<h3 id="Configuraci%C3%B3n-de-gr%C3%A1ficos"><strong>Configuración de gráficos</strong><a class="anchor-link" href="#Configuraci%C3%B3n-de-gr%C3%A1ficos">¶</a></h3><ul>
+<li><code>plt.title('Título')</code> - Agregar título al gráfico</li>
+<li><code>plt.xlabel('Etiqueta X')</code> - Etiqueta del eje X</li>
+<li><code>plt.ylabel('Etiqueta Y')</code> - Etiqueta del eje Y</li>
+<li><code>plt.legend()</code> - Mostrar leyenda</li>
+<li><code>plt.grid(True)</code> - Mostrar cuadrícula</li>
+<li><code>plt.xlim(min, max)</code> - Límites del eje X</li>
+<li><code>plt.ylim(min, max)</code> - Límites del eje Y</li>
+</ul>
+<h3 id="M%C3%BAltiples-gr%C3%A1ficos"><strong>Múltiples gráficos</strong><a class="anchor-link" href="#M%C3%BAltiples-gr%C3%A1ficos">¶</a></h3><ul>
+<li><code>plt.subplot(rows, cols, index)</code> - Crear subgráficos</li>
+<li><code>plt.figure(figsize=(width, height))</code> - Tamaño de la figura</li>
+<li><code>plt.subplots(nrows, ncols)</code> - Crear múltiples subgráficos a la vez</li>
+</ul>
+<h3 id="Personalizaci%C3%B3n"><strong>Personalización</strong><a class="anchor-link" href="#Personalizaci%C3%B3n">¶</a></h3><ul>
+<li><code>plt.color</code> - Especificar color ('red', 'blue', '#FF5733', etc.)</li>
+<li><code>plt.linestyle</code> - Estilo de línea ('-', '--', '-.', ':')</li>
+<li><code>plt.marker</code> - Marcador de puntos ('o', 's', '^', '*', etc.)</li>
+<li><code>plt.linewidth</code> o <code>plt.lw</code> - Grosor de línea</li>
+<li><code>plt.alpha</code> - Transparencia (0.0 a 1.0)</li>
+</ul>
+<h3 id="Guardar-y-mostrar"><strong>Guardar y mostrar</strong><a class="anchor-link" href="#Guardar-y-mostrar">¶</a></h3><ul>
+<li><code>plt.savefig('nombre.png')</code> - Guardar gráfico como imagen</li>
+<li><code>plt.show()</code> - Mostrar el gráfico</li>
+<li><code>plt.close()</code> - Cerrar la figura actual</li>
+</ul>
+<h3 id="Estilos-y-temas"><strong>Estilos y temas</strong><a class="anchor-link" href="#Estilos-y-temas">¶</a></h3><ul>
+<li><code>plt.style.use('ggplot')</code> - Usar estilo predefinido</li>
+<li><code>plt.style.available</code> - Ver estilos disponibles</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f434f173">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="3.2-%C2%BFQu%C3%A9-es-Matplotlib?"><strong>3.2 ¿Qué es Matplotlib?</strong><a class="anchor-link" href="#3.2-%C2%BFQu%C3%A9-es-Matplotlib?">¶</a></h3><p><strong>Matplotlib</strong> es una biblioteca de Python para crear visualizaciones y gráficos estáticos, animados e interactivos.</p>
+<h3 id="Caracter%C3%ADsticas-principales:"><strong>Características principales:</strong><a class="anchor-link" href="#Caracter%C3%ADsticas-principales:">¶</a></h3><ol>
+<li><strong>Visualización de datos</strong>: Permite crear gráficos de línea, barras, dispersión, histogramas, etc.</li>
+<li><strong>Personalización</strong>: Control total sobre colores, estilos, etiquetas y formato</li>
+<li><strong>Integración</strong>: Funciona bien con NumPy y Pandas</li>
+<li><strong>Exportación</strong>: Puede guardar gráficos en múltiples formatos (PNG, PDF, SVG, etc.)</li>
+</ol>
+<h3 id="Conceptos-clave:"><strong>Conceptos clave:</strong><a class="anchor-link" href="#Conceptos-clave:">¶</a></h3><ul>
+<li><strong>Figure (<code>fig</code>)</strong>: El contenedor completo que puede contener uno o más gráficos</li>
+<li><strong>Axes (<code>ax</code>)</strong>: Un gráfico individual dentro de una figura</li>
+<li><strong>Plot</strong>: La función que dibuja los datos en el gráfico</li>
+<li><strong>Subplot</strong>: Múltiples gráficos organizados en una cuadrícula</li>
+</ul>
+<h3 id="Ejemplo-t%C3%ADpico-de-uso:"><strong>Ejemplo típico de uso:</strong><a class="anchor-link" href="#Ejemplo-t%C3%ADpico-de-uso:">¶</a></h3><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="c1"># Crear datos</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+<span class="c1"># Crear gráfico</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Gráfico de Seno'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'X'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'Y'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+<p>En el proyecto, Matplotlib se usa para visualizar datos, resultados de modelos y crear gráficos para presentaciones o reportes.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c1507067">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="3.3-Ejemplo-simple-con-Matplotlib"><strong>3.3 Ejemplo simple con Matplotlib</strong><a class="anchor-link" href="#3.3-Ejemplo-simple-con-Matplotlib">¶</a></h3><p>A continuación se presenta un ejemplo básico y fácil de entender para operar con Matplotlib:</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=36c179b2">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ============================================</span>
+<span class="c1"># EJEMPLO SIMPLE CON MATPLOTLIB</span>
+<span class="c1"># ============================================</span>
+
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="c1"># Configurar para mostrar gráficos en el notebook</span>
+<span class="o">%</span><span class="k">matplotlib</span> inline
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"="</span> <span class="o">*</span> <span class="mi">70</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"EJEMPLO: VISUALIZACIÓN CON MATPLOTLIB"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"="</span> <span class="o">*</span> <span class="mi">70</span><span class="p">)</span>
+
+<span class="c1"># 1. Crear datos de ejemplo</span>
+<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>  <span class="c1"># 50 puntos entre 0 y 10</span>
+<span class="n">y</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">3</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>  <span class="c1"># Relación lineal con ruido</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">1. Datos de ejemplo creados:"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"   X: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="si">}</span><span class="s2"> puntos"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"   Y: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">y</span><span class="p">)</span><span class="si">}</span><span class="s2"> puntos"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span> <span class="o">+</span> <span class="s2">"-"</span> <span class="o">*</span> <span class="mi">50</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=1934a042">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 2. Gráfico de línea básico</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>  <span class="c1"># Tamaño del gráfico (ancho, alto)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="s1">'o-'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'blue'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">markersize</span><span class="o">=</span><span class="mi">6</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Datos'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Gráfico de Línea - Relación X vs Y'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s1">'bold'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Variable X'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'Variable Y'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span>  <span class="c1"># Cuadrícula con transparencia</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"2. Gráfico de línea creado"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span> <span class="o">+</span> <span class="s2">"-"</span> <span class="o">*</span> <span class="mi">50</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=e7607d9f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 3. Gráfico de dispersión (scatter plot)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.6</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span>  <span class="c1"># s = tamaño de los puntos</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Gráfico de Dispersión - X vs Y'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s1">'bold'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Variable X'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'Variable Y'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"3. Gráfico de dispersión creado"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span> <span class="o">+</span> <span class="s2">"-"</span> <span class="o">*</span> <span class="mi">50</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=f4a0240c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 4. Gráfico de barras</span>
+<span class="n">categorias</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'A'</span><span class="p">,</span> <span class="s1">'B'</span><span class="p">,</span> <span class="s1">'C'</span><span class="p">,</span> <span class="s1">'D'</span><span class="p">,</span> <span class="s1">'E'</span><span class="p">]</span>
+<span class="n">valores</span> <span class="o">=</span> <span class="p">[</span><span class="mi">23</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">78</span><span class="p">,</span> <span class="mi">32</span><span class="p">]</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">categorias</span><span class="p">,</span> <span class="n">valores</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="p">[</span><span class="s1">'#FF6B6B'</span><span class="p">,</span> <span class="s1">'#4ECDC4'</span><span class="p">,</span> <span class="s1">'#45B7D1'</span><span class="p">,</span> <span class="s1">'#FFA07A'</span><span class="p">,</span> <span class="s1">'#98D8C8'</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Gráfico de Barras - Valores por Categoría'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s1">'bold'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Categorías'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'Valores'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="s1">'y'</span><span class="p">)</span>  <span class="c1"># Solo cuadrícula en eje Y</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"4. Gráfico de barras creado"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span> <span class="o">+</span> <span class="s2">"-"</span> <span class="o">*</span> <span class="mi">50</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=4600e86d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 5. Histograma</span>
+<span class="n">datos_aleatorios</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>  <span class="c1"># Distribución normal</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">datos_aleatorios</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'skyblue'</span><span class="p">,</span> <span class="n">edgecolor</span><span class="o">=</span><span class="s1">'black'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.7</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Histograma - Distribución de Datos'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s1">'bold'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Valores'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'Frecuencia'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="s1">'y'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"5. Histograma creado"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span> <span class="o">+</span> <span class="s2">"-"</span> <span class="o">*</span> <span class="mi">50</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=a615dbd5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 6. Múltiples gráficos en una figura (subplots)</span>
+<span class="n">fig</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>  <span class="c1"># 2 filas, 2 columnas</span>
+
+<span class="c1"># Gráfico 1: Línea</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="s1">'b-'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">'Gráfico de Línea'</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span>
+
+<span class="c1"># Gráfico 2: Dispersión</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.6</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">'Gráfico de Dispersión'</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span>
+
+<span class="c1"># Gráfico 3: Barras</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">categorias</span><span class="p">,</span> <span class="n">valores</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'green'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.7</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">'Gráfico de Barras'</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="s1">'y'</span><span class="p">)</span>
+
+<span class="c1"># Gráfico 4: Histograma</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">datos_aleatorios</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'orange'</span><span class="p">,</span> <span class="n">edgecolor</span><span class="o">=</span><span class="s1">'black'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.7</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">'Histograma'</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="s1">'y'</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>  <span class="c1"># Ajustar espaciado entre gráficos</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"6. Múltiples gráficos creados en una figura"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span> <span class="o">+</span> <span class="s2">"-"</span> <span class="o">*</span> <span class="mi">50</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=dc5d00fd">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 7. Gráfico con datos de Pandas DataFrame</span>
+<span class="n">df_ejemplo</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">'Mes'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'Ene'</span><span class="p">,</span> <span class="s1">'Feb'</span><span class="p">,</span> <span class="s1">'Mar'</span><span class="p">,</span> <span class="s1">'Abr'</span><span class="p">,</span> <span class="s1">'May'</span><span class="p">,</span> <span class="s1">'Jun'</span><span class="p">],</span>
+    <span class="s1">'Ventas'</span><span class="p">:</span> <span class="p">[</span><span class="mi">100</span><span class="p">,</span> <span class="mi">120</span><span class="p">,</span> <span class="mi">140</span><span class="p">,</span> <span class="mi">110</span><span class="p">,</span> <span class="mi">150</span><span class="p">,</span> <span class="mi">160</span><span class="p">],</span>
+    <span class="s1">'Gastos'</span><span class="p">:</span> <span class="p">[</span><span class="mi">80</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">85</span><span class="p">,</span> <span class="mi">95</span><span class="p">,</span> <span class="mi">105</span><span class="p">]</span>
+<span class="p">})</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="n">x_pos</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df_ejemplo</span><span class="p">[</span><span class="s1">'Mes'</span><span class="p">]))</span>
+<span class="n">width</span> <span class="o">=</span> <span class="mf">0.35</span>  <span class="c1"># Ancho de las barras</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">x_pos</span> <span class="o">-</span> <span class="n">width</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">df_ejemplo</span><span class="p">[</span><span class="s1">'Ventas'</span><span class="p">],</span> <span class="n">width</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Ventas'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#2ecc71'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.8</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">x_pos</span> <span class="o">+</span> <span class="n">width</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">df_ejemplo</span><span class="p">[</span><span class="s1">'Gastos'</span><span class="p">],</span> <span class="n">width</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Gastos'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#e74c3c'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.8</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Mes'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'Cantidad'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Ventas vs Gastos por Mes'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s1">'bold'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">x_pos</span><span class="p">,</span> <span class="n">df_ejemplo</span><span class="p">[</span><span class="s1">'Mes'</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="s1">'y'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"7. Gráfico con datos de DataFrame creado"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span> <span class="o">+</span> <span class="s2">"-"</span> <span class="o">*</span> <span class="mi">50</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=fd9c4f1f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 8. Guardar gráfico en archivo</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="s1">'o-'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'blue'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">markersize</span><span class="o">=</span><span class="mi">6</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Gráfico Guardado - X vs Y'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s1">'bold'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Variable X'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'Variable Y'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">'grafico_ejemplo.png'</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span> <span class="n">bbox_inches</span><span class="o">=</span><span class="s1">'tight'</span><span class="p">)</span>  <span class="c1"># Guardar con alta resolución</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"8. Gráfico guardado como 'grafico_ejemplo.png'"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"   (El archivo se guarda en el directorio actual)"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span> <span class="o">+</span> <span class="s2">"="</span> <span class="o">*</span> <span class="mi">70</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=484cb29a">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="4.-Otras-librer%C3%ADas-de-visualizaci%C3%B3n"><strong>4. Otras librerías de visualización</strong><a class="anchor-link" href="#4.-Otras-librer%C3%ADas-de-visualizaci%C3%B3n">¶</a></h2><h3 id="4.1-Plotly"><strong>4.1 Plotly</strong><a class="anchor-link" href="#4.1-Plotly">¶</a></h3><p><strong>Plotly</strong> es una librería de Python para crear visualizaciones interactivas y dinámicas. A diferencia de Matplotlib, los gráficos de Plotly son interactivos: puedes hacer zoom, pan, hover para ver valores, y los gráficos se pueden exportar como HTML.</p>
+<p><strong>Características principales:</strong></p>
+<ul>
+<li>Gráficos interactivos con zoom, pan y hover</li>
+<li>Soporte para gráficos 3D</li>
+<li>Integración con Dash para crear dashboards web</li>
+<li>Exportación a HTML, PNG, PDF</li>
+<li>Gráficos animados</li>
+</ul>
+<p><strong>Ejemplo básico:</strong></p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">'x'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="s1">'y'</span><span class="p">:</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">13</span><span class="p">]})</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'x'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'y'</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">'Gráfico Interactivo'</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+<p><strong>Cuándo usar Plotly:</strong></p>
+<ul>
+<li>Cuando necesitas gráficos interactivos para presentaciones web</li>
+<li>Para dashboards y aplicaciones web</li>
+<li>Cuando quieres que los usuarios exploren los datos interactivamente</li>
+</ul>
+<h3 id="4.2-Seaborn"><strong>4.2 Seaborn</strong><a class="anchor-link" href="#4.2-Seaborn">¶</a></h3><p><strong>Seaborn</strong> es una librería de visualización estadística construida sobre Matplotlib. Proporciona una interfaz de alto nivel para crear gráficos estadísticos atractivos con menos código.</p>
+<p><strong>Características principales:</strong></p>
+<ul>
+<li>Estilos visuales predefinidos y atractivos</li>
+<li>Funciones especializadas para visualización estadística</li>
+<li>Integración perfecta con Pandas DataFrames</li>
+<li>Gráficos más informativos con menos código</li>
+<li>Paletas de colores profesionales</li>
+</ul>
+<p><strong>Ejemplo básico:</strong></p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">'x'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="s1">'y'</span><span class="p">:</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">13</span><span class="p">]})</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">lineplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'x'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'y'</span><span class="p">)</span>
+</pre></div>
+<p><strong>Cuándo usar Seaborn:</strong></p>
+<ul>
+<li>Para análisis exploratorio de datos (EDA)</li>
+<li>Cuando necesitas gráficos estadísticos complejos (heatmaps, pair plots, etc.)</li>
+<li>Para crear visualizaciones más atractivas con menos código que Matplotlib</li>
+<li>Cuando trabajas principalmente con DataFrames de Pandas</li>
+</ul>
+<p><strong>Resumen de librerías de visualización:</strong></p>
+<ul>
+<li><strong>Matplotlib</strong>: Control total, gráficos estáticos, base para otras librerías</li>
+<li><strong>Seaborn</strong>: Visualizaciones estadísticas atractivas, fácil de usar con Pandas</li>
+<li><strong>Plotly</strong>: Gráficos interactivos, ideal para web y dashboards</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f8a2666e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="3.-Principales-comandos-de-scikit-learn-(sklearn)"><strong>3. Principales comandos de scikit-learn (sklearn)</strong><a class="anchor-link" href="#3.-Principales-comandos-de-scikit-learn-(sklearn)">¶</a></h2><p>Scikit-learn es una librería de Python para aprendizaje automático y machine learning. A continuación se presentan los comandos más utilizados:</p>
+<h2 id="5.-Principales-comandos-de-scikit-learn-(sklearn)"><strong>5. Principales comandos de scikit-learn (sklearn)</strong><a class="anchor-link" href="#5.-Principales-comandos-de-scikit-learn-(sklearn)">¶</a></h2><p>Scikit-learn es una librería de Python para aprendizaje automático y machine learning. A continuación se presentan los comandos más utilizados:</p>
 <h3 id="Preprocesamiento-de-datos"><strong>Preprocesamiento de datos</strong><a class="anchor-link" href="#Preprocesamiento-de-datos">¶</a></h3><ul>
 <li><code>StandardScaler()</code> - Estandarizar características (media=0, std=1) - Ejemplo en esta guía</li>
 <li><code>LabelEncoder()</code> - Codificar etiquetas categóricas a numéricas - Ejemplo en esta guía</li>
@@ -8140,7 +8561,7 @@ Ordenado de mayor a menor (método directo):
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="3.2-%C2%BFQu%C3%A9-es-StandardScaler?"><strong>3.2 ¿Qué es StandardScaler?</strong><a class="anchor-link" href="#3.2-%C2%BFQu%C3%A9-es-StandardScaler?">¶</a></h3><p><strong>StandardScaler</strong> es una herramienta de preprocesamiento de scikit-learn que estandariza las características (features) de tus datos.</p>
+<h3 id="5.2-%C2%BFQu%C3%A9-es-StandardScaler?"><strong>5.2 ¿Qué es StandardScaler?</strong><a class="anchor-link" href="#5.2-%C2%BFQu%C3%A9-es-StandardScaler?">¶</a></h3><p><strong>StandardScaler</strong> es una herramienta de preprocesamiento de scikit-learn que estandariza las características (features) de tus datos.</p>
 <h3 id="%C2%BFQu%C3%A9-hace?">¿Qué hace?<a class="anchor-link" href="#%C2%BFQu%C3%A9-hace?">¶</a></h3><p>Transforma los datos para que tengan:</p>
 <ul>
 <li><strong>Media = 0</strong></li>
@@ -8181,7 +8602,7 @@ Ordenado de mayor a menor (método directo):
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="3.3-%C2%BFQu%C3%A9-es-LabelEncoder?"><strong>3.3 ¿Qué es LabelEncoder?</strong><a class="anchor-link" href="#3.3-%C2%BFQu%C3%A9-es-LabelEncoder?">¶</a></h3><p><strong>Label Encoder</strong> es una herramienta de <code>sklearn.preprocessing</code> que convierte etiquetas categóricas (texto) en números. Los algoritmos de Machine Learning suelen requerir datos numéricos, así que convierte categorías en enteros.</p>
+<h3 id="5.3-%C2%BFQu%C3%A9-es-LabelEncoder?"><strong>5.3 ¿Qué es LabelEncoder?</strong><a class="anchor-link" href="#5.3-%C2%BFQu%C3%A9-es-LabelEncoder?">¶</a></h3><p><strong>Label Encoder</strong> es una herramienta de <code>sklearn.preprocessing</code> que convierte etiquetas categóricas (texto) en números. Los algoritmos de Machine Learning suelen requerir datos numéricos, así que convierte categorías en enteros.</p>
 <h3 id="%C2%BFC%C3%B3mo-funciona?"><strong>¿Cómo funciona?</strong><a class="anchor-link" href="#%C2%BFC%C3%B3mo-funciona?">¶</a></h3><p>Asigna un número único a cada categoría única:</p>
 <p><strong>Ejemplo:</strong></p>
 <div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">LabelEncoder</span>
@@ -8221,7 +8642,7 @@ Ordenado de mayor a menor (método directo):
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>En scikit-learn, los modelos siguen un patrón consistente de uso.</p>
-<h3 id="3.4-%C2%BFQu%C3%A9-es-scikit-learn?"><strong>3.4 ¿Qué es scikit-learn?</strong><a class="anchor-link" href="#3.4-%C2%BFQu%C3%A9-es-scikit-learn?">¶</a></h3><p>scikit-learn (sklearn) es una biblioteca de Python que proporciona herramientas simples y eficientes para análisis predictivo de datos y machine learning.</p>
+<h3 id="5.4-%C2%BFQu%C3%A9-es-scikit-learn?"><strong>5.4 ¿Qué es scikit-learn?</strong><a class="anchor-link" href="#5.4-%C2%BFQu%C3%A9-es-scikit-learn?">¶</a></h3><p>scikit-learn (sklearn) es una biblioteca de Python que proporciona herramientas simples y eficientes para análisis predictivo de datos y machine learning.</p>
 <h3 id="Caracter%C3%ADsticas-principales:">Características principales:<a class="anchor-link" href="#Caracter%C3%ADsticas-principales:">¶</a></h3><ol>
 <li><strong>API consistente</strong>: Todos los modelos siguen el mismo patrón (fit, predict, score), en este orden</li>
 <li><strong>Preprocesamiento</strong>: Herramientas para limpiar y preparar datos</li>
@@ -8255,7 +8676,7 @@ Ordenado de mayor a menor (método directo):
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="3.5-np.random.seed(42)-%E2%80%94-Explicaci%C3%B3n"><strong>3.5 <code>np.random.seed(42)</code> — Explicación</strong><a class="anchor-link" href="#3.5-np.random.seed(42)-%E2%80%94-Explicaci%C3%B3n">¶</a></h3><p><code>np.random.seed(42)</code> fija la semilla para la generación de números aleatorios en NumPy. En análisis de datos, esto es fundamental para garantizar la reproducibilidad de los experimentos.</p>
+<h3 id="5.5-np.random.seed(42)-%E2%80%94-Explicaci%C3%B3n"><strong>5.5 <code>np.random.seed(42)</code> — Explicación</strong><a class="anchor-link" href="#5.5-np.random.seed(42)-%E2%80%94-Explicaci%C3%B3n">¶</a></h3><p><code>np.random.seed(42)</code> fija la semilla para la generación de números aleatorios en NumPy. En análisis de datos, esto es fundamental para garantizar la reproducibilidad de los experimentos.</p>
 <h3 id="%C2%BFQu%C3%A9-hace?">¿Qué hace?<a class="anchor-link" href="#%C2%BFQu%C3%A9-hace?">¶</a></h3><ul>
 <li>Fija el punto de partida del generador de números aleatorios.</li>
 <li>Con la misma semilla, la secuencia de números “aleatorios” será la misma en cada ejecución.</li>
@@ -8295,7 +8716,7 @@ Es una referencia caprichosa que ha sido adoptada por la comunidad de programaci
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="3.6-Ejemplo-simple-con-scikit-learn-(Regresi%C3%B3n)"><strong>3.6 Ejemplo simple con scikit-learn (Regresión)</strong><a class="anchor-link" href="#3.6-Ejemplo-simple-con-scikit-learn-(Regresi%C3%B3n)">¶</a></h3><p>A continuación se presenta un ejemplo básico y fácil de entender para operar con scikit-learn en problemas de regresión:</p>
+<h3 id="5.6-Ejemplo-simple-con-scikit-learn-(Regresi%C3%B3n)"><strong>5.6 Ejemplo simple con scikit-learn (Regresión)</strong><a class="anchor-link" href="#5.6-Ejemplo-simple-con-scikit-learn-(Regresi%C3%B3n)">¶</a></h3><p>A continuación se presenta un ejemplo básico y fácil de entender para operar con scikit-learn en problemas de regresión:</p>
 </div>
 </div>
 </div>
@@ -10988,6 +11409,16 @@ Parameter Group 0
 </tbody>
 </table>
 <p><strong>Conclusión</strong>: Para la mayoría de problemas de regresión con datos tabulares, <strong>scikit-learn es más simple y suficiente</strong>. Usa <strong>PyTorch</strong> cuando necesites redes neuronales profundas, GPU, o modelos muy personalizados.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cc6fa842">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 </div>
 </div>
 </div>
